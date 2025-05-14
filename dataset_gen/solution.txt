@@ -1,0 +1,2834 @@
+1.--_The Reve's Puzzle._
+
+The 8 cheeses can be removed in 33 moves, 10 cheeses in 49 moves, and 21
+cheeses in 321 moves. I will give my general method of solution in the
+cases of 3, 4, and 5 stools.
+
+Write out the following table to any required length:--
+
+  Stools.      Number of Cheeses.
+
+  3      1  2  3   4   5    6    7      Natural Numbers.
+  4      1  3  6  10  15   21   28      Triangular Numbers.
+  5      1  4 10  20  35   56   84      Triangular Pyramids.
+
+         Number of Moves.
+
+  3      1  3  7  15  31   63  127
+  4      1  5 17  49 129  321  769
+  5      1  7 31 111 351 1023 2815
+
+The first row contains the natural numbers. The second row is found by
+adding the natural numbers together from the beginning. The numbers in
+the third row are obtained by adding together the numbers in the second
+row from the beginning. The fourth row contains the successive powers of
+2, less 1. The next series is found by doubling in turn each number of
+that series and adding the number that stands above the place where you
+write the result. The last row is obtained in the same way. This table
+will at once give solutions for any number of cheeses with three stools,
+for triangular numbers with four stools, and for pyramidal numbers with
+five stools. In these cases there is always only one method of
+solution--that is, of piling the cheeses.
+
+In the case of three stools, the first and fourth rows tell us that 4
+cheeses may be removed in 15 moves, 5 in 31, 7 in 127. The second and
+fifth rows show that, with four stools, 10 may be removed in 49, and 21
+in 321 moves. Also, with five stools, we find from the third and sixth
+rows that 20 cheeses require 111 moves, and 35 cheeses 351 moves. But we
+also learn from the table the necessary method of piling. Thus, with four
+stools and 10 cheeses, the previous column shows that we must make piles
+of 6 and 3, which will take 17 and 7 moves respectively--that is, we
+first pile the six smallest cheeses in 17 moves on one stool; then we
+pile the next 3 cheeses on another stool in 7 moves; then remove the
+largest cheese in 1 move; then replace the 3 in 7 moves; and finally
+replace the 6 in 17: making in all the necessary 49 moves. Similarly we
+are told that with five stools 35 cheeses must form piles of 20, 10, and
+4, which will respectively take 111, 49, and 15 moves.
+
+If the number of cheeses in the case of four stools is not triangular,
+and in the case of five stools pyramidal, then there will be more than
+one way of making the piles, and subsidiary tables will be required. This
+is the case with the Reve's 8 cheeses. But I will leave the reader to
+work out for himself the extension of the problem.
+
+
+
+
+2.--_The Pardoner's Puzzle._
+
+The diagram on page 165 will show how the Pardoner started from the large
+black town and visited all the other towns once, and once only, in
+fifteen straight pilgrimages.
+
+See No. 320, "The Rook's Tour," in _A. in M._
+
+
+
+
+3.--_The Miller's Puzzle._
+
+The way to arrange the sacks of flour is as follows:--2, 78, 156, 39, 4.
+Here each pair when multiplied by its single neighbour makes the number
+in the middle, and only five of the sacks need be moved. There are just
+three other ways in which they might have been arranged (4, 39, 156, 78,
+2; or 3, 58, 174, 29, 6; or 6, 29, 174, 58, 3), but they all require the
+moving of seven sacks.
+
+[Illustration]
+
+[Illustration]
+
+
+
+
+4.--_The Knight's Puzzle._
+
+The Knight declared that as many as 575 squares could be marked off on
+his shield, with a rose at every corner. How this result is achieved may
+be realized by reference to the accompanying diagram:--Join A, B, C, and
+D, and there are 66 squares of this size to be formed; the size A, E, F,
+G gives 48; A, H, I, J, 32; B, K, L, M, 19; B, N, O, P, 10; B, Q, R, S,
+4; E, T, F, C, 57; I, U, V, P, 33; H, W, X, J, 15; K, Y, Z, M, 3; E, a,
+b, D, 82; H, d, M, D, 56; H, e, f, G, 42; K, g, f, C, 32; N, h, z, F, 24;
+K, h, m, b, 14; K, O, S, D, 16; K, n, p, G, 10; K, q, r, J, 6; Q, t, p,
+C, 4; Q, u, r, i, 2. The total number is thus 575. These groups have been
+treated as if each of them represented a different sized square. This is
+correct, with the one exception that the squares of the form B, N, O, P
+are exactly the same size as those of the form K, h, m, b.
+
+
+
+
+5.--_The Wife of Bath's Riddles._
+
+The good lady explained that a bung that is made fast in a barrel is like
+another bung that is falling out of a barrel because one of them is _in
+secure_ and the other is also _insecure_. The little relationship poser
+is readily understood when we are told that the parental command came
+from the father (who was also in the room) and not from the mother.
+
+
+
+
+6.--_The Host's Puzzle._
+
+The puzzle propounded by the jovial host of the "Tabard" Inn of Southwark
+had proved more popular than any other of the whole collection. "I see,
+my merry masters," he cried, "that I have sorely twisted thy brains by my
+little piece of craft. Yet it is but a simple matter for me to put a true
+pint of fine old ale in each of these two measures, albeit one is of five
+pints and the other of three pints, without using any other measure
+whatever."
+
+The host of the "Tabard" Inn thereupon proceeded to explain to the
+pilgrims how this apparently impossible task could be done. He first
+filled the 5-pint and 3-pint measures, and then, turning the tap, allowed
+the barrel to run to waste--a proceeding against which the company
+protested; but the wily man showed that he was aware that the cask did
+not contain much more than eight pints of ale. The contents, however, do
+not affect the solution of the puzzle. He then closed the tap and emptied
+the 3-pint into the barrel; filled the 3-pint from the 5-pint; emptied
+the 3-pint into the barrel; transferred the two pints from the 5-pint to
+the 3-pint; filled the 5-pint from the barrel, leaving one pint now in
+the barrel; filled 3-pint from 5-pint; allowed the company to drink the
+contents of the 3-pint; filled the 3-pint from the 5-pint, leaving one
+pint now in the 5-pint; drank the contents of the 3-pint; and finally
+drew off one pint from the barrel into the 3-pint. He had thus obtained
+the required one pint of ale in each measure, to the great astonishment
+of the admiring crowd of pilgrims.
+
+
+
+
+7.--_Clerk of Oxenford's Puzzle._
+
+The illustration shows how the square is to be cut into four pieces, and
+how these pieces are to be put together again to make a magic square. It
+will be found that the four columns, four rows, and two long diagonals
+now add up to 34 in every case.
+
+[Illustration]
+
+
+
+
+8.--_The Tapiser's Puzzle._
+
+The piece of tapestry had to be cut along the lines into three pieces so
+as to fit together and form a perfect square, with the pattern properly
+matched. It was also stipulated in effect that one of the three pieces
+must be as small as possible. The illustration shows how to make the cuts
+and how to put the pieces together, while one of the pieces contains only
+twelve of the little squares.
+
+[Illustration]
+
+
+
+
+9.--_The Carpenter's Puzzle._
+
+The carpenter said that he made a box whose internal dimensions were
+exactly the same as the original block of wood--that is, 3 feet by 1 foot
+by 1 foot. He then placed the carved pillar in this box and filled up all
+the vacant space with a fine, dry sand, which he carefully shook down
+until he could get no more into the box. Then he removed the pillar,
+taking great care not to lose any of the sand, which, on being shaken
+down alone in the box, filled a space equal to one cubic foot. This was,
+therefore, the quantity of wood that had been cut away.
+
+
+
+
+10.--_The Puzzle of the Squire's Yeoman._
+
+The illustration will show how three of the arrows were removed each to a
+neighbouring square on the signboard of the "Chequers" Inn, so that still
+no arrow was in line with another. The black dots indicate the squares on
+which the three arrows originally stood.
+
+[Illustration]
+
+
+
+
+11.--_The Nun's Puzzle._
+
+[Illustration]
+
+As there are eighteen cards bearing the letters "CANTERBURY PILGRIMS,"
+write the numbers 1 to 18 in a circle, as shown in the diagram. Then
+write the first letter C against 1, and each successive letter against
+the second number that happens to be vacant. This has been done as far as
+the second R. If the reader completes the process by placing Y against 2,
+P against 6, I against 10, and so on, he will get the letters all placed
+in the following order:--CYASNPTREIRMBLUIRG, which is the required
+arrangement for the cards, C being at the top of the pack and G at the
+bottom.
+
+
+
+
+12.--_The Merchant's Puzzle._
+
+This puzzle amounts to finding the smallest possible number that has
+exactly sixty-four divisors, counting 1 and the number itself as
+divisors. The least number is 7,560. The pilgrims might, therefore, have
+ridden in single file, two and two, three and three, four and four, and
+so on, in exactly sixty-four different ways, the last manner being in a
+single row of 7,560.
+
+The Merchant was careful to say that they were going over a common, and
+not to mention its size, for it certainly would not be possible along an
+ordinary road!
+
+To find how many different numbers will divide a given number, N, let N =
+_a_^p _b_^q _c_^r ..., where _a_, _b_, _c_ ... are prime numbers. Then
+the number of divisors will be (_p_ + 1) (_q_ + 1) (_r_ + 1) ..., which
+includes as divisors 1 and N itself. Thus in the case of my puzzle--
+
+  7,560  =  2^3 × 3^3 × 5 × 7
+  Powers =  3     3     1   1
+  Therefore 4   × 4   × 2 × 2 = 64 divisors.
+
+To find the smallest number that has a given number of divisors we must
+proceed by trial. But it is important sometimes to note whether or not
+the condition is that there shall be a given number of divisors _and no
+more_. For example, the smallest number that has seven divisors and no
+more is 64, while 24 has eight divisors, and might equally fulfil the
+conditions. The stipulation as to "no more" was not necessary in the case
+of my puzzle, for no smaller number has more than sixty-four divisors.
+
+
+
+
+13.--_The Man of Law's Puzzle._
+
+The fewest possible moves for getting the prisoners into their dungeons
+in the required numerical order are twenty-six. The men move in the
+following order:--1, 2, 3, 1, 2, 6, 5, 3, 1, 2, 6, 5, 3, 1, 2, 4, 8, 7,
+1, 2, 4, 8, 7, 4, 5, 6. As there are never more than one vacant dungeon
+to be moved into, there can be no ambiguity in the notation.
+
+[Illustration]
+
+The diagram may be simplified by my "buttons and string" method, fully
+explained in _A. in M._, p. 230. It then takes one of the simple forms of
+A or B, and the solution is much easier. In A we use counters; in B we
+can employ rooks on a corner of a chessboard. In both cases we have to
+get the order
+
+[Illustration:
+
+  {1 2 3}
+  {4 5 6}
+  {7 8  }   ]
+
+in the fewest possible moves.
+
+See also solution to No. 94.
+
+
+
+
+14.--_The Weaver's Puzzle._
+
+The illustration shows clearly how the Weaver cut his square of beautiful
+cloth into four pieces of exactly the same size and shape, so that each
+piece contained an embroidered lion and castle unmutilated in any way.
+
+[Illustration]
+
+
+
+
+15.--_The Cook's Puzzle._
+
+There were four portions of warden pie and four portions of venison pasty
+to be distributed among eight out of eleven guests. But five out of the
+eleven will only eat the pie, four will only eat the pasty, and two are
+willing to eat of either. Any possible combination must fall into one of
+the following groups. (i.) Where the warden pie is distributed entirely
+among the five first mentioned; (ii.) where only one of the accommodating
+pair is given pie; (iii.) where the other of the pair is given pie; (iv.)
+where both of the pair are given pie. The numbers of combinations are:
+(i.) = 75, (ii.) = 50, (iii.) = 10, (iv.) = 10--making in all 145 ways of
+selecting the eight participants. A great many people will give the
+answer as 185, by overlooking the fact that in forty cases in class
+(iii.) precisely the same eight guests would be sharing the meal as in
+class (ii.), though the accommodating pair would be eating differently of
+the two dishes. This is the point that upset the calculations of the
+company.
+
+
+
+
+16.--_The Sompnour's Puzzle._
+
+The number that the Sompnour confided to the Wife of Bath was
+twenty-nine, and she was told to begin her count at the Doctor of Physic,
+who will be seen in the illustration standing the second on her right.
+The first count of twenty-nine falls on the Shipman, who steps out of the
+ring. The second count falls on the Doctor, who next steps out. The
+remaining three counts fall respectively on the Cook, the Sompnour, and
+the Miller. The ladies would, therefore, have been left in possession had
+it not been for the unfortunate error of the good Wife. Any multiple of
+2,520 added to 29 would also have served the same purpose, beginning the
+count at the Doctor.
+
+
+
+
+17.--_The Monk's Puzzle._
+
+The Monk might have placed dogs in the kennels in two thousand nine
+hundred and twenty-six different ways, so that there should be ten dogs
+on every side. The number of dogs might vary from twenty to forty, and
+as long as the Monk kept his animals within these limits the thing was
+always possible.
+
+The general solution to this puzzle is difficult. I find that for _n_
+dogs on every side of the square, the number of different ways is (_n_^4
++ 10_n_^3 + 38_n_^2 + 62_n_ + 33) / 48, where _n_ is odd, and ((_n_^4 +
+10_n_^3 + 38_n_^2 + 68_n_) / 48) + 1, where _n_ is even, if we count only
+those arrangements that are fundamentally different. But if we count all
+reversals and reflections as different, as the Monk himself did, then _n_
+dogs (odd or even) may be placed in ((_n_^4 + 6_n_^3 + 14_n_^2 + 15_n_) /
+6) + 1 ways. In order that there may be _n_ dogs on every side, the
+number must not be less than 2_n_ nor greater than 4_n_, but it may be
+any number within these limits.
+
+An extension of the principle involved in this puzzle is given in No. 42,
+"The Riddle of the Pilgrims." See also "The Eight Villas" and "A
+Dormitory Puzzle" in _A. in M._
+
+
+
+
+18.--_The Shipman's Puzzle._
+
+There are just two hundred and sixty-four different ways in which the
+ship _Magdalen_ might have made her ten annual voyages without ever going
+over the same course twice in a year. Every year she must necessarily end
+her tenth voyage at the island from which she first set out.
+
+[Illustration]
+
+
+
+
+19.--_The Puzzle of the Prioress._
+
+The Abbot of Chertsey was quite correct. The curiously-shaped cross may
+be cut into four pieces that will fit together and form a perfect
+square. How this is done is shown in the illustration.
+
+See also p. 31 in _A. in M._
+
+
+
+
+20.--_The Puzzle of the Doctor of Physic._
+
+Here we have indeed a knotty problem. Our text-books tell us that all
+spheres are similar, and that similar solids are as the cubes of
+corresponding lengths. Therefore, as the circumferences of the two phials
+were one foot and two feet respectively and the cubes of one and two
+added together make nine, what we have to find is two other numbers whose
+cubes added together make nine. These numbers clearly must be fractional.
+Now, this little question has really engaged the attention of learned men
+for two hundred and fifty years; but although Peter de Fermat showed in
+the seventeenth century how an answer may be found in two fractions with
+a denominator of no fewer than twenty-one figures, not only are all the
+published answers, by his method, that I have seen inaccurate, but nobody
+has ever published the much smaller result that I now print. The cubes of
+(415280564497 / 348671682660) and (676702467503 / 348671682660) added
+together make exactly nine, and therefore these fractions of a foot are
+the measurements of the circumferences of the two phials that the Doctor
+required to contain the same quantity of liquid as those produced. An
+eminent actuary and another correspondent have taken the trouble to cube
+out these numbers, and they both find my result quite correct.
+
+If the phials were one foot and three feet in circumference respectively,
+then an answer would be that the cubes of (63284705 / 21446828) and
+(28340511 / 21446828) added together make exactly 28. See also No. 61,
+"The Silver Cubes."
+
+Given a known case for the expression of a number as the sum or
+difference of two cubes, we can, by formula, derive from it an infinite
+number of other cases alternately positive and negative. Thus Fermat,
+starting from the known case 1^{3} + 2^{3} = 9 (which we will call a
+fundamental case), first obtained a negative solution in bigger figures,
+and from this his positive solution in bigger figures still. But there is
+an infinite number of fundamentals, and I found by trial a negative
+fundamental solution in smaller figures than his derived negative
+solution, from which I obtained the result shown above. That is the
+simple explanation.
+
+We can say of any number up to 100 whether it is possible or not to
+express it as the sum of two cubes, except 66. Students should read the
+Introduction to Lucas's _Théorie des Nombres_, p. xxx.
+
+Some years ago I published a solution for the case of
+
+6 = (17/21)^3 + (37/21)^3,
+
+of which Legendre gave at some length a "proof" of impossibility; but I
+have since found that Lucas anticipated me in a communication to
+Sylvester.
+
+[Illustration]
+
+
+
+
+21.--_The Ploughman's Puzzle._
+
+The illustration shows how the sixteen trees might have been planted so
+as to form as many as fifteen straight rows with four trees in every row.
+This is in excess of what was for a long time believed to be the maximum
+number of rows possible; and though with our present knowledge I cannot
+rigorously demonstrate that fifteen rows cannot be beaten, I have a
+strong "pious opinion" that it is the highest number of rows obtainable.
+
+
+
+
+22.--_The Franklin's Puzzle._
+
+The answer to this puzzle is shown in the illustration, where the numbers
+on the sixteen bottles all add up to 30 in the ten straight directions.
+The trick consists in the fact that, although the six bottles (3, 5, 6,
+9, 10, and 15) in which the flowers have been placed are not removed, yet
+the sixteen need not occupy exactly the same position on the table as
+before. The square is, in fact, formed one step further to the left.
+
+[Illustration]
+
+
+
+
+23.--_The Squire's Puzzle._
+
+The portrait may be drawn in a single line because it contains only two
+points at which an odd number of lines meet, but it is absolutely
+necessary to begin at one of these points and end at the other. One point
+is near the outer extremity of the King's left eye; the other is below it
+on the left cheek.
+
+
+
+
+24.--_The Friar's Puzzle._
+
+The five hundred silver pennies might have been placed in the four bags,
+in accordance with the stated conditions, in exactly 894,348 different
+ways. If there had been a thousand coins there would be 7,049,112 ways.
+It is a difficult problem in the partition of numbers. I have a single
+formula for the solution of any number of coins in the case of four bags,
+but it was extremely hard to construct, and the best method is to find
+the twelve separate formulas for the different congruences to the modulus
+12.
+
+
+
+
+25.--_The Parson's Puzzle._
+
+[Illustration]
+
+A very little examination of the original drawing will have shown the
+reader that, as he will have at first read the conditions, the puzzle is
+quite impossible of solution. We have therefore to look for some
+loophole in the actual conditions as they were worded. If the Parson
+could get round the source of the river, he could then cross every bridge
+once and once only on his way to church, as shown in the annexed
+illustration. That this was not prohibited we shall soon find. Though the
+plan showed all the bridges in his parish, it only showed "part of" the
+parish itself. It is not stated that the river did not take its rise in
+the parish, and since it leads to the only possible solution, we must
+assume that it did. The answer would be, therefore, as shown. It should
+be noted that we are clearly prevented from considering the possibility
+of getting round the mouth of the river, because we are told it "joined
+the sea some hundred miles to the south," while no parish ever extended a
+hundred miles!
+
+
+
+
+26.--_The Haberdasher's Puzzle._
+
+[Illustration]
+
+The illustration will show how the triangular piece of cloth may be cut
+into four pieces that will fit together and form a perfect square. Bisect
+AB in D and BC in E; produce the line AE to F making EF equal to EB;
+bisect AF in G and describe the arc AHF; produce EB to H, and EH is the
+length of the side of the required square; from E with distance EH,
+describe the arc HJ, and make JK equal to BE; now, from the points D and
+K drop perpendiculars on EJ at L and M. If you have done this accurately,
+you will now have the required directions for the cuts.
+
+[Illustration]
+
+I exhibited this problem before the Royal Society, at Burlington House,
+on 17th May 1905, and also at the Royal Institution in the following
+month, in the more general form:--"A New Problem on Superposition: a
+demonstration that an equilateral triangle can be cut into four pieces
+that may be reassembled to form a square, with some examples of a general
+method for transforming all rectilinear triangles into squares by
+dissection." It was also issued as a challenge to the readers of the
+_Daily Mail_ (see issues of 1st and 8th February 1905), but though many
+hundreds of attempts were sent in there was not a single solver. Credit,
+however, is due to Mr. C. W. M'Elroy, who alone sent me the correct
+solution when I first published the problem in the _Weekly Dispatch_ in
+1902.
+
+I add an illustration showing the puzzle in a rather curious practical
+form, as it was made in polished mahogany with brass hinges for use by
+certain audiences. It will be seen that the four pieces form a sort of
+chain, and that when they are closed up in one direction they form the
+triangle, and when closed in the other direction they form the square.
+
+
+
+
+27.--_The Dyer's Puzzle._
+
+The correct answer is 18,816 different ways. The general formula for six
+fleurs-de-lys for all squares greater than 2^{2} is simply this: Six
+times the square of the number of combinations of _n_ things, taken three
+at a time, where _n_ represents the number of fleurs-de-lys in the side
+of the square. Of course where _n_ is even the remainders in rows and
+columns will be even, and where _n_ is odd the remainders will be odd.
+
+For further solution, see No. 358 in _A. in M._
+
+
+
+
+28.--_The Great Dispute between the Friar and the Sompnour._
+
+In this little problem we attempted to show how, by sophistical
+reasoning, it may apparently be proved that the diagonal of a square is
+of precisely the same length as two of the sides. The puzzle was to
+discover the fallacy, because it is a very obvious fallacy if we admit
+that the shortest distance between two points is a straight line. But
+where does the error come in?
+
+Well, it is perfectly true that so long as our zigzag path is formed of
+"steps" parallel to the sides of the square that path must be of the same
+length as the two sides. It does not matter if you have to use the most
+powerful microscope obtainable; the rule is always true if the path is
+made up of steps in that way. But the error lies in the assumption that
+such a zigzag path can ever become a straight line. You may go on
+increasing the number of steps infinitely--that is, there is no limit
+whatever theoretically to the number of steps that can be made--but you
+can never reach a straight line by such a method. In fact it is just as
+much a "jump" to a straight line if you have a billion steps as it is at
+the very outset to pass from the two sides to the diagonal. It would be
+just as absurd to say we might go on dropping marbles into a basket until
+they become sovereigns as to say we can increase the number of our steps
+until they become a straight line. There is the whole thing in a
+nutshell.
+
+
+
+
+29.--_Chaucer's Puzzle._
+
+The surface of water or other liquid is always spherical, and the greater
+any sphere is the less is its convexity. Hence the top diameter of any
+vessel at the summit of a mountain will form the base of the segment of a
+greater sphere than it would at the bottom. This sphere, being greater,
+must (from what has been already said) be less convex; or, in other
+words, the spherical surface of the water must be less above the brim of
+the vessel, and consequently it will hold less at the top of a mountain
+than at the bottom. The reader is therefore free to select any mountain
+he likes in Italy--or elsewhere!
+
+
+
+
+30.--_The Puzzle of the Canon's Yeoman._
+
+The number of different ways is 63,504. The general formula for such
+arrangements, when the number of letters in the sentence is 2_n_ + 1, and
+it is a palindrome without diagonal readings, is [4(2^_n_ - 1)]^2.
+
+I think it will be well to give here a formula for the general solution
+of each of the four most common forms of the diamond-letter puzzle. By
+the word "line" I mean the complete diagonal. Thus in A, B, C, and D, the
+lines respectively contain 5, 5, 7, and 9 letters. A has a non-palindrome
+line (the word being BOY), and the general solution for such cases, where
+the line contains 2_n_ + 1 letters, is 4(2^_n_ - 1). Where the line is a
+single palindrome, with its middle letter in the centre, as in B, the
+general formula is [4(2^_n_ - 1)]^{2}. This is the form of the
+Rat-catcher's Puzzle, and therefore the expression that I have given
+above. In cases C and D we have double palindromes, but these two
+represent very different types. In C, where the line contains 4^n-1
+letters, the general expression is 4^(2^{2_n_}-2). But D is by far the
+most difficult case of all.
+
+I had better here state that in the diamonds under consideration (i.) no
+diagonal readings are allowed--these have to be dealt with specially in
+cases where they are possible and admitted; (ii.) readings may start
+anywhere; (iii.) readings may go backwards and forwards, using letters
+more than once in a single reading, but not the same letter twice in
+immediate succession. This last condition will be understood if the
+reader glances at C, where it is impossible to go forwards and backwards
+in a reading without repeating the first O touched--a proceeding which I
+have said is not allowed. In the case D it is very different, and this is
+what accounts for its greater difficulty. The formula for D is this:
+
+[Illustration:
+
+  (_n_+5)×2^{2_n_+2} + (2^{_n_+2}×(1×3×5×7
+  . . . . . (2n-1)) / _n_) - 2^{_n_+4} - 8   ]
+
+where the number of letters in the line is 4_n_+1. In the example given
+there are therefore 400 readings for _n_ = 2.
+
+See also Nos. 256, 257, and 258 in _A. in M._
+
+[Illustration
+
+  A
+
+    Y
+   YOY
+  YOBOY
+   YOY
+    Y
+
+  B
+    L
+   LEL
+  LEVEL
+   LEL
+    L
+
+  C
+
+     N
+    NON
+   NOOON
+  NOONOON
+   NOOON
+    NON
+     N
+
+  D
+
+      L
+     LEL
+    LEVEL
+   LEVEVEL
+  LEVELEVEL
+   LEVEVEL
+    LEVEL
+     LEL
+      L   ]
+
+
+
+
+31.--_The Manciple's Puzzle._
+
+The simple Ploughman, who was so ridiculed for his opinion, was perfectly
+correct: the Miller should receive seven pieces of money, and the Weaver
+only one. As all three ate equal shares of the bread, it should be
+evident that each ate 8/3 of a loaf. Therefore, as the Miller provided
+15/3 and ate 8/3, he contributed 7/3 to the Manciple's meal; whereas the
+Weaver provided 9/3, ate 8/3, and contributed only 1/3. Therefore, since
+they contributed to the Manciple in the proportion of 7 to 1, they must
+divide the eight pieces of money in the same proportion.
+
+
+
+
+PUZZLING TIMES AT SOLVAMHALL CASTLE
+
+_SIR HUGH EXPLAINS HIS PROBLEMS_
+
+
+The friends of Sir Hugh de Fortibus were so perplexed over many of his
+strange puzzles that at a gathering of his kinsmen and retainers he
+undertook to explain his posers.
+
+[Illustration]
+
+"Of a truth," said he, "some of the riddles that I have put forth would
+greatly tax the wit of the unlettered knave to rede; yet will I try to
+show the manner thereof in such way that all may have understanding. For
+many there be who cannot of themselves do all these things, but will yet
+study them to their gain when they be given the answers, and will take
+pleasure therein."
+
+
+
+
+32.--_The Game of Bandy-Ball._
+
+Sir Hugh explained, in answer to this puzzle, that as the nine holes were
+300, 250, 200, 325, 275, 350, 225, 375, and 400 yards apart, if a man
+could always strike the ball in a perfectly straight line and send it at
+will a distance of either 125 yards or 100 yards, he might go round the
+whole course in 26 strokes. This is clearly correct, for if we call the
+125 stroke the "drive" and the 100 stroke the "approach," he could play
+as follows:--The first hole could be reached in 3 approaches, the second
+in 2 drives, the third in 2 approaches, the fourth in 2 approaches and 1
+drive, the fifth in 3 drives and 1 backward approach, the sixth in 2
+drives and 1 approach, the seventh in 1 drive and 1 approach, the eighth
+in 3 drives, and the ninth hole in 4 approaches. There are thus 26
+strokes in all, and the feat cannot be performed in fewer.
+
+
+
+
+33.--_Tilting at the Ring._
+
+[Illustration]
+
+"By my halidame!" exclaimed Sir Hugh, "if some of yon varlets had been
+put in chains, which for their sins they do truly deserve, then would
+they well know, mayhap, that the length of any chain having like rings is
+equal to the inner width of a ring multiplied by the number of rings and
+added to twice the thickness of the iron whereof it is made. It may be
+shown that the inner width of the rings used in the tilting was one inch
+and two-thirds thereof, and the number of rings Stephen Malet did win
+was three, and those that fell to Henry de Gournay would be nine."
+
+The knight was quite correct, for 1-2/3 in. × 3 + 1 in. = 6 in., and
+1-2/3 in. x 9 + 1 in. = 16 in. Thus De Gournay beat Malet by six rings.
+The drawing showing the rings may assist the reader in verifying the
+answer and help him to see why the inner width of a link multiplied by
+the number of links and added to twice the thickness of the iron gives
+the exact length. It will be noticed that every link put on the chain
+loses a length equal to twice the thickness of the iron.
+
+
+
+
+34.--_The Noble Demoiselle._
+
+[Illustration]
+
+"Some here have asked me," continued Sir Hugh, "how they may find the
+cell in the Dungeon of the Death's-head wherein the noble maiden was
+cast. Beshrew me! but 'tis easy withal when you do but know how to do it.
+In attempting to pass through every door once, and never more, you must
+take heed that every cell hath two doors or four, which be even numbers,
+except two cells, which have but three. Now, certes, you cannot go in and
+out of any place, passing through all the doors once and no more, if the
+number of doors be an odd number. But as there be but two such odd cells,
+yet may we, by beginning at the one and ending at the other, so make our
+journey in many ways with success. I pray you, albeit, to mark that only
+one of these odd cells lieth on the outside of the dungeon, so we must
+perforce start therefrom. Marry, then, my masters, the noble demoiselle
+must needs have been wasting in the other."
+
+The drawing will make this quite clear to the reader. The two "odd cells"
+are indicated by the stars, and one of the many routes that will solve
+the puzzle is shown by the dotted line. It is perfectly certain that you
+must start at the lower star and end at the upper one; therefore the cell
+with the star situated over the left eye must be the one sought.
+
+
+
+
+35.--_The Archery Butt._
+
+[Illustration]
+
+"It hath been said that the proof of a pudding is ever in the eating
+thereof, and by the teeth of Saint George I know no better way of showing
+how this placing of the figures may be done than by the doing of it.
+Therefore have I in suchwise written the numbers that they do add up to
+twenty and three in all the twelve lines of three that are upon the
+butt."
+
+I think it well here to supplement the solution of De Fortibus with a few
+remarks of my own. The nineteen numbers may be so arranged that the lines
+will add up to any number we may choose to select from 22 to 38
+inclusive, excepting 30. In some cases there are several different
+solutions, but in the case of 23 there are only two. I give one of these.
+To obtain the second solution exchange respectively 7, 10, 5, 8, 9, in
+the illustration, with 13, 4, 17, 2, 15. Also exchange 18 with 12, and
+the other numbers may remain unmoved. In every instance there must be an
+even number in the central place, and any such number from 2 to 18 may
+occur. Every solution has its complementary. Thus, if for every number in
+the accompanying drawing we substitute the difference between it and 20,
+we get the solution in the case of 37. Similarly, from the arrangement in
+the original drawing, we may at once obtain a solution for the case of
+38.
+
+[Illustration]
+
+
+
+
+36.--_The Donjon Keep Window._
+
+In this case Sir Hugh had greatly perplexed his chief builder by
+demanding that he should make a window measuring one foot on every side
+and divided by bars into eight lights, having all their sides equal. The
+illustration will show how this was to be done. It will be seen that if
+each side of the window measures one foot, then each of the eight
+triangular lights is six inches on every side.
+
+"Of a truth, master builder," said De Fortibus slyly to the architect, "I
+did not tell thee that the window must be square, as it is most certain
+it never could be."
+
+
+
+
+37.--_The Crescent and the Cross._
+
+"By the toes of St. Moden," exclaimed Sir Hugh de Fortibus when this
+puzzle was brought up, "my poor wit hath never shaped a more cunning
+artifice or any more bewitching to look upon. It came to me as in a
+vision, and ofttimes have I marvelled at the thing, seeing its exceeding
+difficulty. My masters and kinsmen, it is done in this wise."
+
+[Illustration]
+
+The worthy knight then pointed out that the crescent was of a particular
+and somewhat irregular form--the two distances _a_ to _b_ and _c_ to _d_
+being straight lines, and the arcs _ac_ and _bd_ being precisely similar.
+He showed that if the cuts be made as in Figure 1, the four pieces will
+fit together and form a perfect square, as shown in Figure 2, if we there
+only regard the three curved lines. By now making the straight cuts also
+shown in Figure 2, we get the ten pieces that fit together, as in Figure
+3, and form a perfectly symmetrical Greek cross. The proportions of the
+crescent and the cross in the original illustration were correct, and
+the solution can be demonstrated to be absolutely exact and not merely
+approximate.
+
+I have a solution in considerably fewer pieces, but it is far more
+difficult to understand than the above method, in which the problem is
+simplified by introducing the intermediate square.
+
+
+
+
+38.--_The Amulet._
+
+The puzzle was to place your pencil on the A at the top of the amulet and
+count in how many different ways you could trace out the word
+"Abracadabra" downwards, always passing from a letter to an adjoining
+one.
+
+            A
+           B B
+          R R R
+         A A A A
+        C C C C C
+       A A A A A A
+      D D D D D D D
+     A A A A A A A A
+    B B B B B B B B B
+   R R R R R R R R R R
+  A A A A A A A A A A A
+
+"Now, mark ye, fine fellows," said Sir Hugh to some who had besought him
+to explain, "that at the very first start there be two ways open:
+whichever B ye select, there will be two several ways of proceeding
+(twice times two are four); whichever R ye select, there be two ways of
+going on (twice times four are eight); and so on until the end. Each
+letter in order from A downwards may so be reached in 2, 4, 8, 16, 32,
+etc., ways. Therefore, as there be ten lines or steps in all from A to
+the bottom, all ye need do is to multiply ten 2's together, and truly the
+result, 1024, is the answer thou dost seek."
+
+
+
+
+39.--_The Snail on the Flagstaff._
+
+Though there was no need to take down and measure the staff, it is
+undoubtedly necessary to find its height before the answer can be given.
+It was well known among the friends and retainers of Sir Hugh de Fortibus
+that he was exactly six feet in height. It will be seen in the original
+picture that Sir Hugh's height is just twice the length of his shadow.
+Therefore we all know that the flagstaff will, at the same place and time
+of day, be also just twice as long as its shadow. The shadow of the staff
+is the same length as Sir Hugh's height; therefore this shadow is six
+feet long, and the flagstaff must be twelve feet high. Now, the snail, by
+climbing up three feet in the daytime and slipping back two feet by
+night, really advances one foot in a day of twenty-four hours. At the end
+of nine days it is three feet from the top, so that it reaches its
+journey's end on the tenth day.
+
+The reader will doubtless here exclaim, "This is all very well; but how
+were we to know the height of Sir Hugh? It was never stated how tall he
+was!" No, it was not stated in so many words, but it was none the less
+clearly indicated to the reader who is sharp in these matters. In the
+original illustration to the donjon keep window Sir Hugh is shown
+standing against a wall, the window in which is stated to be one foot
+square on the inside. Therefore, as his height will be found by
+measurement to be just six times the inside height of the window, he
+evidently stands just six feet in his boots!
+
+
+
+
+40.--_Lady Isabel's Casket._
+
+The last puzzle was undoubtedly a hard nut, but perhaps difficulty does
+not make a good puzzle any the less interesting when we are shown the
+solution. The accompanying diagram indicates exactly how the top of Lady
+Isabel de Fitzarnulph's casket was inlaid with square pieces of rare wood
+(no two squares alike) and the strip of gold 10 inches by a quarter of an
+inch. This is the only possible solution, and it is a singular fact
+(though I cannot here show the subtle method of working) that the number,
+sizes, and order of those squares are determined by the given dimensions
+of the strip of gold, and the casket can have no other dimensions than 20
+inches square. The number in a square indicates the length in inches of
+the side of that square, so the accuracy of the answer can be checked
+almost at a glance.
+
+Sir Hugh de Fortibus made some general concluding remarks on the occasion
+that are not altogether uninteresting to-day.
+
+[Illustration]
+
+"Friends and retainers," he said, "if the strange offspring of my poor
+wit about which we have held pleasant counsel to-night hath mayhap had
+some small interest for ye, let these matters serve to call to mind the
+lesson that our fleeting life is rounded and beset with enigmas. Whence
+we came and whither we go be riddles, and albeit such as these we may
+never bring within our understanding, yet there be many others with which
+we and they that do come after us will ever strive for the answer.
+Whether success do attend or do not attend our labour, it is well that we
+make the attempt; for 'tis truly good and honourable to train the mind,
+and the wit, and the fancy of man, for out of such doth issue all manner
+of good in ways unforeseen for them that do come after us."
+
+
+
+
+THE MERRY MONKS OF RIDDLEWELL
+
+
+
+
+41.--_The Riddle of the Fish-pond._
+
+Number the fish baskets in the illustration from 1 to 12 in the direction
+that Brother Jonathan is seen to be going. Starting from 1, proceed as
+follows, where "1 to 4" means, take the fish from basket No. 1 and
+transfer it to basket No. 4:--
+
+1 to 4, 5 to 8, 9 to 12, 3 to 6, 7 to 10, 11 to 2, and complete the last
+revolution to 1, making three revolutions in all. Or you can proceed this
+way:--
+
+4 to 7, 8 to 11, 12 to 3, 2 to 5, 6 to 9, 10 to 1.
+
+It is easy to solve in four revolutions, but the solutions in three are
+more difficult to discover.
+
+
+
+
+42.--_The Riddle of the Pilgrims._
+
+If it were not for the Abbot's conditions that the number of guests in
+any room may not exceed three, and that every room must be occupied, it
+would have been possible to accommodate either 24, 27, 30, 33, 36, 39, or
+42 pilgrims. But to accommodate 24 pilgrims so that there shall be twice
+as many sleeping on the upper floor as on the lower floor, and eleven
+persons on each side of the building, it will be found necessary to leave
+some of the rooms empty. If, on the other hand, we try to put up 33, 36,
+39 or 42 pilgrims, we shall find that in every case we are obliged to
+place more than three persons in some of the rooms. Thus we know that the
+number of pilgrims originally announced (whom, it will be remembered, it
+was possible to accommodate under the conditions of the Abbot) must have
+been 27, and that, since three more than this number were actually
+provided with beds, the total number of pilgrims was 30. The accompanying
+diagram shows how they might be arranged, and if in each instance we
+regard the upper floor as placed above the lower one, it will be seen
+that there are eleven persons on each side of the building, and twice as
+many above as below.
+
+[Illustration]
+
+
+
+
+43.--_The Riddle of the Tiled Hearth._
+
+The correct answer is shown in the illustration on page 196. No tile is
+in line (either horizontally, vertically, or diagonally) with another
+tile of the same design, and only three plain tiles are used. If after
+placing the four lions you fall into the error of placing four other
+tiles of another pattern, instead of only three, you will be left with
+four places that must be occupied by plain tiles. The secret consists in
+placing four of one kind and only three of each of the others.
+
+[Illustration]
+
+
+
+
+44.--_The Riddle of the Sack of Wine._
+
+The question was: Did Brother Benjamin take more wine from the bottle
+than water from the jug? Or did he take more water from the jug than wine
+from the bottle? He did neither. The same quantity of wine was
+transferred from the bottle as water was taken from the jug. Let us
+assume that the glass would hold a quarter of a pint. There was a pint of
+wine in the bottle and a pint of water in the jug. After the first
+manipulation the bottle contains three-quarters of a pint of wine, and
+the jug one pint of water mixed with a quarter of a pint of wine. Now,
+the second transaction consists in taking away a fifth of the contents of
+the jug--that is, one-fifth of a pint of water mixed with one-fifth of a
+quarter of a pint of wine. We thus leave behind in the jug four-fifths of
+a quarter of a pint of wine--that is, one-fifth of a pint--while we
+transfer from the jug to the bottle an equal quantity (one-fifth of a
+pint) of water.
+
+
+
+
+45.--_The Riddle of the Cellarer._
+
+There were 100 pints of wine in the cask, and on thirty occasions John
+the Cellarer had stolen a pint and replaced it with a pint of water.
+After the first theft the wine left in the cask would be 99 pints; after
+the second theft the wine in the cask would be 9801/100 pints (the square
+of 99 divided by 100); after the third theft there would remain
+970299/10000 (the cube of 99 divided by the square of 100); after the
+fourth theft there would remain the fourth power of 99 divided by the
+cube of 100; and after the thirtieth theft there would remain in the cask
+the thirtieth power of 99 divided by the twenty-ninth power of 100. This
+by the ordinary method of calculation gives us a number composed of 59
+figures to be divided by a number composed of 58 figures! But by the use
+of logarithms it may be quickly ascertained that the required quantity is
+very nearly 73-97/100 pints of wine left in the cask. Consequently the
+cellarer stole nearly 26.03 pints. The monks doubtless omitted the answer
+for the reason that they had no tables of logarithms, and did not care to
+face the task of making that long and tedious calculation in order to get
+the quantity "to a nicety," as the wily cellarer had stipulated.
+
+By a simplified process of calculation, I have ascertained that the exact
+quantity of wine stolen would be
+
+  26.0299626611719577269984907683285057747323737647323555652999
+
+pints. A man who would involve the monastery in a fraction of fifty-eight
+decimals deserved severe punishment.
+
+
+
+
+46.--_The Riddle of the Crusaders._
+
+The correct answer is that there would have been 602,176 Crusaders, who
+could form themselves into a square 776 by 776; and after the stranger
+joined their ranks, they could form 113 squares of 5,329 men--that is, 73
+by 73. Or 113 × 73^2 - 1 = 776^2. This is a particular case of the
+so-called "Pellian Equation," respecting which see _A. in M._, p. 164.
+
+
+
+
+47.--_The Riddle of St. Edmondsbury._
+
+The reader is aware that there are prime numbers and composite whole
+numbers. Now, 1,111,111 cannot be a prime number, because if it were the
+only possible answers would be those proposed by Brother Benjamin and
+rejected by Father Peter. Also it cannot have more than two factors, or
+the answer would be indeterminate. As a matter of fact, 1,111,111 equals
+239 x 4649 (both primes), and since each cat killed more mice than there
+were cats, the answer must be 239 cats. See also the Introduction, p. 18.
+
+Treated generally, this problem consists in finding the factors, if any,
+of numbers of the form (10^_n_ - 1)/9.
+
+Lucas, in his _L'Arithmétique Amusante_, gives a number of curious tables
+which he obtained from an arithmetical treatise, called the _Talkhys_, by
+Ibn Albanna, an Arabian mathematician and astronomer of the first half of
+the thirteenth century. In the Paris National Library are several
+manuscripts dealing with the _Talkhys_, and a commentary by Alkalaçadi,
+who died in 1486. Among the tables given by Lucas is one giving all the
+factors of numbers of the above form up to _n_ = 18. It seems almost
+inconceivable that Arabians of that date could find the factors where _n_
+= 17, as given in my Introduction. But I read Lucas as stating that they
+are given in _Talkhys_, though an eminent mathematician reads him
+differently, and suggests to me that they were discovered by Lucas
+himself. This can, of course, be settled by an examination of _Talkhys_,
+but this has not been possible during the war.
+
+The difficulty lies wholly with those cases where _n_ is a prime number.
+If _n_ = 2, we get the prime 11. The factors when _n_ = 3, 5, 11, and 13
+are respectively (3 . 37), (41 . 271), (21,649 . 513,239), and (53 . 79 .
+265371653). I have given in these pages the factors where _n_ = 7 and 17.
+The factors when _n_= 19, 23, and 37 are unknown, if there are any.[B]
+When _n_ = 29, the factors are (3,191 . 16,763 . 43,037. 62,003 .
+77,843,839,397); when _n_ = 31, one factor is 2,791; and when _n_ = 41,
+two factors are (83 . 1,231).
+
+[B] Mr. Oscar Hoppe, of New York, informs me that, after reading my
+statement in the Introduction, he was led to investigate the case of _n_
+= 19, and after long and tedious work he succeeded in proving the number
+to be a prime. He submitted his proof to the London Mathematical Society,
+and a specially appointed committee of that body accepted the proof as
+final and conclusive. He refers me to the _Proceedings_ of the Society
+for 14th February 1918.
+
+As for the even values of _n_, the following curious series of factors
+will doubtless interest the reader. The numbers in brackets are primes.
+
+_n_ = 2 = (11)
+
+_n_ = 6 = (11) × 111 × 91
+
+_n_ = 10 = (11) × 11,111 × (9,091)
+
+_n_ = 14 = (11) × 1,111,111 × (909,091)
+
+_n_ = 18 = (11) × 111,111,111 × 90,909,091
+
+Or we may put the factors this way:--
+
+_n_ = 2 = (11)
+
+_n_ = 6 = 111 × 1,001
+
+_n_ = 10 = 11,111 × 100,001
+
+_n_ = 14 = 1,111,111 × 10,000,001
+
+_n_ = 18 = 111,111,111 × 1,000,000,001
+
+In the above two tables _n_ is of the form 4_m_ + 2. When _n_ is of the
+form 4_m_ the factors may be written down as follows:--
+
+_n_= 4 = (11) × (101)
+
+_n_ = 8 = (11) × (101) × 10,001
+
+_n_ = 12 = (11) × (101) × 100,010,001
+
+_n_ = 16 = (11) × (101) × 1,000,100,010,001.
+
+When _n_ = 2, we have the prime number 11; when _n_ = 3, the factors are
+3 . 37; when _n_ = 6, they are 11 . 3 . 37 . 7. 13; when _n_ = 9, they
+are 3^2 . 37 . 333,667. Therefore we know that factors of _n_ = 18 are
+11. 3^2 . 37 . 7 . 13 . 333,667, while the remaining factor is composite
+and can be split into 19 . 52579. This will show how the working may be
+simplified when _n_ is not prime.
+
+
+
+
+48.--_The Riddle of the Frogs' Ring._
+
+The fewest possible moves in which this puzzle can be solved are 118. I
+will give the complete solution. The black figures on white discs move
+in the directions of the hands of a clock, and the white figures on black
+discs the other way. The following are the numbers in the order in which
+they move. Whether you have to make a simple move or a leaping move will
+be clear from the position, as you never can have an alternative. The
+moves enclosed in brackets are to be played five times over: 6, 7, 8, 6,
+5, 4, 7, 8, 9, 10, 6, 5, 4, 3, 2, 7, 8, 9, 10, 11 (6, 5, 4, 3, 2, 1), 6,
+5, 4, 3, 2, 12, (7, 8, 9, 10, 11, 12), 7, 8, 9, 10, 11, 1, 6, 5, 4, 3, 2,
+12, 7, 8, 9, 10, 11, 6, 5, 4, 3, 2, 8, 9, 10, 11, 4, 3, 2, 10, 11, 2. We
+thus have made 118 moves within the conditions, the black frogs have
+changed places with the white ones, and 1 and 12 are side by side in the
+positions stipulated.
+
+The general solution in the case of this puzzle is 3_n_^{2} + 2_n_ - 2
+moves, where the number of frogs of each colour is _n_. The law governing
+the sequence of moves is easily discovered by an examination of the
+simpler cases, where _n_ = 2, 3, and 4.
+
+If, instead of 11 and 12 changing places, the 6 and 7 must interchange,
+the expression is _n_^{2} + 4_n_ + 2 moves. If we give _n_ the value 6,
+as in the example of the Frogs' Ring, the number of moves would be 62.
+
+For a general solution of the case where frogs of one colour reverse
+their order, leaving the blank space in the same position, and each frog
+is allowed to be moved in either direction (leaping, of course, over his
+own colour), see "The Grasshopper Puzzle" in _A. in M._, p. 193.
+
+
+
+
+THE STRANGE ESCAPE OF THE KING'S JESTER
+
+
+Although the king's jester promised that he would "thereafter make the
+manner thereof plain to all," there is no record of his having ever done
+so. I will therefore submit to the reader my own views as to the probable
+solutions to the mysteries involved.
+
+
+
+
+49.--_The Mysterious Rope._
+
+When the jester "divided his rope in half," it does not follow that he
+cut it into two parts, each half the original length of the rope. No
+doubt he simply untwisted the strands, and so divided it into two ropes,
+each of the original length, but one-half the thickness. He would thus be
+able to tie the two together and make a rope nearly twice the original
+length, with which it is quite conceivable that he made good his escape
+from the dungeon.
+
+
+
+
+50.--_The Underground Maze._
+
+How did the jester find his way out of the maze in the dark? He had
+simply to grope his way to a wall and then keep on walking without once
+removing his left hand (or right hand) from the wall. Starting from A,
+the dotted line will make the route clear when he goes to the left. If
+the reader tries the route to the right in the same way he will be
+equally successful; in fact, the two routes unite and cover every part of
+the walls of the maze except those two detached parts on the left-hand
+side--one piece like a U, and the other like a distorted E. This rule
+will apply to the majority of mazes and puzzle gardens; but if the centre
+were enclosed by an isolated wall in the form of a split ring, the jester
+would simply have gone round and round this ring.
+
+See the article, "Mazes, and How to Thread Them," _in A. in M._
+
+
+
+
+51.--_The Secret Lock._
+
+This puzzle entailed the finding of an English word of three letters,
+each letter being found on a different dial. Now, there is no English
+word composed of consonants alone, and the only vowel appearing anywhere
+on the dials is Y. No English word begins with Y and has the two other
+letters consonants, and all the words of three letters ending in Y (with
+two consonants) either begin with an S or have H, L, or R as their second
+letter. But these four consonants do not appear. Therefore Y must occur
+in the middle, and the only word that I can find is "PYX," and there can
+be little doubt that this was the word. At any rate, it solves our
+puzzle.
+
+
+
+
+52.--_Crossing the Moat._
+
+No doubt some of my readers will smile at the statement that a man in a
+boat on smooth water can pull himself across with the tiller rope! But it
+is a fact. If the jester had fastened the end of his rope to the stern of
+the boat and then, while standing in the bows, had given a series of
+violent jerks, the boat would have been propelled forward. This has often
+been put to a practical test, and it is said that a speed of two or three
+miles an hour may be attained. See W. W. Rouse Ball's _Mathematical
+Recreations_.
+
+
+
+
+53.--_The Royal Gardens._
+
+[Illustration]
+
+This puzzle must have struck many readers as being absolutely impossible.
+The jester said: "I had, of a truth, entered every one of the sixteen
+gardens once, and never more than once." If we follow the route shown in
+the accompanying diagram, we find that there is no difficulty in once
+entering all the gardens but one before reaching the last garden
+containing the exit B. The difficulty is to get into the garden with a
+star, because if we leave the B garden we are compelled to enter it a
+second time before escaping, and no garden may be entered twice. The
+trick consists in the fact that you may enter that starred garden without
+necessarily leaving the other. If, when the jester got to the gateway
+where the dotted line makes a sharp bend, his intention had been to hide
+in the starred garden, but after he had put one foot through the doorway,
+upon the star, he discovered it was a false alarm and withdrew, he could
+truly say: "I entered the starred garden, because I put my foot and part
+of my body in it; and I did not enter the other garden twice, because,
+after once going in I never left it until I made my exit at B." This is
+the only answer possible, and it was doubtless that which the jester
+intended.
+
+See "The Languishing Maiden," in _A. in M._
+
+
+
+
+54.--_Bridging the Ditch._
+
+[Illustration]
+
+The solution to this puzzle is best explained by the illustration. If he
+had placed his eight planks, in the manner shown, across the angle of the
+ditch, he would have been able to cross without much trouble. The king's
+jester might thus have well overcome all his difficulties and got safely
+away, as he has told us that he succeeded in doing.
+
+
+
+
+THE SQUIRE'S CHRISTMAS PUZZLE PARTY
+
+_HOW THE VARIOUS TRICKS WERE DONE_
+
+
+The record of one of Squire Davidge's annual "Puzzle Parties," made by
+the old gentleman's young lady relative, who had often spent a merry
+Christmas at Stoke Courcy Hall, does not contain the solutions of the
+mysteries. So I will give my own answers to the puzzles and try to make
+them as clear as possible to those who may be more or less novices in
+such matters.
+
+
+
+
+55.--_The Three Teacups._
+
+[Illustration]
+
+Miss Charity Lockyer clearly must have had a trick up her sleeve, and I
+think it highly probable that it was conceived on the following lines.
+She proposed that ten lumps of sugar should be placed in three teacups,
+so that there should be an odd number of lumps in every cup. The
+illustration perhaps shows Miss Charity's answer, and the figures on the
+cups indicate the number of lumps that have been separately placed in
+them. By placing the cup that holds one lump inside the one that holds
+two lumps, it can be correctly stated that every cup contains an odd
+number of lumps. One cup holds seven lumps, another holds one lump, while
+the third cup holds three lumps. It is evident that if a cup contains
+another cup it also contains the contents of that second cup.
+
+There are in all fifteen different solutions to this puzzle. Here they
+are:--
+
+  1 0 9     1 4 5     9 0 1
+  3 0 7     7 0 3     7 2 1
+  1 2 7     5 2 3     5 4 1
+  5 0 5     3 4 3     3 6 1
+  3 2 5     1 6 3     1 8 1
+
+The first two numbers in a triplet represent respectively the number of
+lumps to be placed in the inner and outer of the two cups that are placed
+one inside the other. It will be noted that the outer cup of the pair may
+itself be empty.
+
+
+
+
+56.--_The Eleven Pennies._
+
+It is rather evident that the trick in this puzzle was as follows:--From
+the eleven coins take five; then add four (to those already taken away)
+and you leave nine--in the second heap of those removed!
+
+
+
+
+57.--_The Christmas Geese._
+
+Farmer Rouse sent exactly 101 geese to market. Jabez first sold Mr.
+Jasper Tyler half of the flock and half a goose over (that is, 50-1/2 +
+1/2, or 51 geese, leaving 50); he then sold Farmer Avent a third of what
+remained and a third of a goose over (that is, 16-2/3 + 1/3, or 17 geese,
+leaving 33); he then sold Widow Foster a quarter of what remained and
+three-quarters of a goose over (that is, 8-1/4 + 3/4 or 9 geese, leaving
+24); he next sold Ned Collier a fifth of what he had left and gave him a
+fifth of a goose "for the missus" (that is, 4-4/5 + 1/5 or 5 geese,
+leaving 19). He then took these 19 back to his master.
+
+
+
+
+58.--_The Chalked Numbers._
+
+This little jest on the part of Major Trenchard is another trick puzzle,
+and the face of the roguish boy on the extreme right, with the figure 9
+on his back, showed clearly that he was in the secret, whatever that
+secret might be. I have no doubt (bearing in mind the Major's hint as to
+the numbers being "properly regarded") that his answer was that depicted
+in the illustration, where boy No. 9 stands on his head and so converts
+his number into 6. This makes the total 36--an even number--and by making
+boys 3 and 4 change places with 7 and 8, we get 1278 and 5346, the
+figures of which, in each case, add up to 18. There are just three other
+ways in which the boys may be grouped: 1368--2457, 1467--2358, and
+2367--1458.
+
+
+
+
+59.--_Tasting the Plum Puddings._
+
+The diagram will show how this puzzle is to be solved. It is the only way
+within the conditions laid down. Starting at the pudding with holly at
+the top left-hand corner, we strike out all the puddings in twenty-one
+straight strokes, taste the steaming hot pudding at the end of the tenth
+stroke, and end at the second sprig of holly.
+
+Here we have an example of a chess rook's path that is not re-entrant,
+but between two squares that are at the greatest possible distance from
+one another. For if it were desired to move, under the condition of
+visiting every square once and once only, from one corner square to the
+other corner square on the same diagonal, the feat is impossible.
+
+There are a good many different routes for passing from one sprig of holly
+to the other in the smallest possible number of moves--twenty-one--but I
+have not counted them. I have recorded fourteen of these, and possibly
+there are more. Any one of these would serve our purpose, except for the
+condition that the tenth stroke shall end at the steaming hot pudding.
+This was introduced to stop a plurality of solutions--called by the maker
+of chess problems "cooks." I am not aware of more than one solution to
+this puzzle; but as I may not have recorded all the tours, I cannot make a
+positive statement on the point at the time of writing.
+
+[Illustration]
+
+
+
+
+60.--_Under the Mistletoe Bough._
+
+Everybody was found to have kissed everybody else once under the
+mistletoe, with the following additions and exceptions: No male kissed a
+male; no man kissed a married woman except his own wife; all the
+bachelors and boys kissed all the maidens and girls twice; the widower
+did not kiss anybody, and the widows did not kiss each other. Every kiss
+was returned, and the double performance was to count as one kiss. In
+making a list of the company, we can leave out the widower altogether,
+because he took no part in the osculatory exercise.
+
+  7 Married couples       14
+  3 Widows                 3
+  12 Bachelors and Boys   12
+  10 Maidens and Girls    10
+  Total                   39 Persons
+
+Now, if every one of these 39 persons kissed everybody else once, the
+number of kisses would be 741; and if the 12 bachelors and boys each
+kissed the 10 maidens and girls once again, we must add 120, making a
+total of 861 kisses. But as no married man kissed a married woman other
+than his own wife, we must deduct 42 kisses; as no male kissed another
+male, we must deduct 171 kisses; and as no widow kissed another widow, we
+must deduct 3 kisses. We have, therefore, to deduct 42+171+3=216 kisses
+from the above total of 861, and the result, 645, represents exactly the
+number of kisses that were actually given under the mistletoe bough.
+
+
+
+
+61.--_The Silver Cubes._
+
+There is no limit to the number of different dimensions that will give
+two cubes whose sum shall be exactly seventeen cubic inches. Here is the
+answer in the smallest possible numbers. One of the silver cubes must
+measure 2-23278/40831 inches along each edge, and the other must measure
+11663/40831 inch. If the reader likes to undertake the task of cubing
+each number (that is, multiply each number twice by itself), he will find
+that when added together the contents exactly equal seventeen cubic
+inches. See also No. 20, "The Puzzle of the Doctor of Physic."
+
+
+
+
+THE ADVENTURES OF THE PUZZLE CLUB
+
+
+
+
+62.--_The Ambiguous Photograph._
+
+One by one the members of the Club succeeded in discovering the key to
+the mystery of the Ambiguous Photograph, except Churton, who was at
+length persuaded to "give it up." Herbert Baynes then pointed out to him
+that the coat that Lord Marksford was carrying over his arm was a lady's
+coat, because the buttons are on the left side, whereas a man's coat
+always has the buttons on the right-hand side. Lord Marksford would not
+be likely to walk about the streets of Paris with a lady's coat over his
+arm unless he was accompanying the owner. He was therefore walking with
+the lady.
+
+As they were talking a waiter brought a telegram to Baynes.
+
+"Here you are," he said, after reading the message. "A wire from Dovey:
+'Don't bother about photo. Find lady was the gentleman's sister, passing
+through Paris.' That settles it. You might notice that the lady was
+lightly clad, and therefore the coat might well be hers. But it is clear
+that the rain was only a sudden shower, and no doubt they were close to
+their destination, and she did not think it worth while to put the coat
+on."
+
+
+
+
+63.--_The Cornish Cliff Mystery._
+
+Melville's explanation of the Cornish Cliff Mystery was very simple when
+he gave it. Yet it was an ingenious trick that the two criminals adopted,
+and it would have completely succeeded had not our friends from the
+Puzzle Club accidentally appeared on the scene. This is what happened:
+When Lamson and Marsh reached the stile, Marsh alone walked to the top of
+the cliff, with Lamson's larger boots in his hands. Arrived at the edge
+of the cliff, he changed the boots and walked backwards to the stile,
+carrying his own boots.
+
+This little manoeuvre accounts for the smaller footprints showing a
+deeper impression at the heel, and the larger prints a deeper impression
+at the toe; for a man will walk more heavily on his heels when going
+forward, but will make a deeper impression with the toes in walking
+backwards. It will also account for the fact that the large footprints
+were sometimes impressed over the smaller ones, but never the reverse;
+also for the circumstance that the larger footprints showed a shorter
+stride, for a man will necessarily take a smaller stride when walking
+backwards. The pocket-book was intentionally dropped, to lead the police
+to discover the footprints, and so be put on the wrong scent.
+
+
+
+
+64.--_The Runaway Motor-Car._
+
+Russell found that there are just twelve five-figure numbers that have
+the peculiarity that the first two figures multiplied by the last
+three--all the figures being different, and there being no 0--will
+produce a number with exactly the same five figures, in a different
+order. But only one of these twelve begins with a 1--namely, 14926. Now,
+if we multiply 14 by 926, the result is 12964, which contains the same
+five figures. The number of the motor-car was therefore 14926.
+
+Here are the other eleven numbers:--24651, 42678, 51246, 57834, 75231,
+78624, 87435, 72936, 65281, 65983, and 86251.
+
+Compare with the problems in "Digital Puzzles," section of _A. in M._,
+and with Nos. 93 and 101 in these pages.
+
+
+
+
+65.--_The Mystery of Ravensdene Park._
+
+The diagrams show that there are two different ways in which the routes
+of the various persons involved in the Ravensdene Mystery may be traced,
+without any path ever crossing another. It depends whether the butler, E,
+went to the north or the south of the gamekeeper's cottage, and the
+gamekeeper, A, went to the south or the north of the hall. But it will be
+found that the only persons who could have approached Mr. Cyril Hastings
+without crossing a path were the butler, E, and the man, C. It was,
+however, a fact that the butler retired to bed five minutes before
+midnight, whereas Mr. Hastings did not leave his friend's house until
+midnight. Therefore the criminal must have been the man who entered the
+park at C.
+
+[Illustration]
+
+
+
+
+66.--_The Buried Treasure._
+
+The field must have contained between 179 and 180 acres--to be more
+exact, 179.37254 acres. Had the measurements been 3, 2, and 4 furlongs
+respectively from successive corners, then the field would have been
+209.70537 acres in area.
+
+One method of solving this problem is as follows. Find the area of
+triangle APB in terms of _x_, the side of the square. Double the
+result=_xy_. Divide by _x_ and then square, and we have the value of
+_y_^{2} in terms of _x_. Similarly find value of _z_^{2} in terms of _x_;
+then solve the equation _y_^{2}+_z_^{2}=3^{2}, which will come out in the
+form _x_^{4}-20_x_^{2}=-37. Therefore _x_^{2}=10+(sqrt{63})=17.937254
+square furlongs, very nearly, and as there are ten acres in one square
+furlong, this equals 179.37254 acres. If we take the negative root of the
+equation, we get the area of the field as 20.62746 acres, in which case
+the treasure would have been buried outside the field, as in Diagram 2.
+But this solution is excluded by the condition that the treasure was
+buried in the field. The words were, "The document ... states clearly
+that the field is square, and that the treasure is buried in it."
+
+[Illustration]
+
+
+
+
+THE PROFESSOR'S PUZZLES
+
+
+
+
+67.--_The Coinage Puzzle._
+
+The point of this puzzle turns on the fact that if the magic square were
+to be composed of whole numbers adding up 15 in all ways, the two must be
+placed in one of the corners. Otherwise fractions must be used, and these
+are supplied in the puzzle by the employment of sixpences and
+half-crowns. I give the arrangement requiring the fewest possible current
+English coins--fifteen. It will be seen that the amount in each corner is
+a fractional one, the sum required in the total being a whole number of
+shillings.
+
+[Illustration]
+
+
+
+
+68.--_The Postage Stamps Puzzles._
+
+The first of these puzzles is based on a similar principle, though it is
+really much easier, because the condition that nine of the stamps must
+be of different values makes their selection a simple matter, though how
+they are to be placed requires a little thought or trial until one knows
+the rule respecting putting the fractions in the corners. I give the
+solution.
+
+[Illustration:
+
+                     [1/2 d]
+  [4-1/2 d]    [1 d]   [3 d]
+
+  [2 d]        [3 d]     [4 d]
+
+  [2-1/2 d]    [5 d]    [1-1/2 d]   ]
+
+
+[Illustration:
+
+  [4 d]                [1/2 d]
+   [3 d]            [1-1/2 d]
+                  [9 d]
+
+  [10 d]     [6 d]     [2 d]
+
+  [1 d]      [1 s.]    [5 d]   ]
+
+I also show the solution to the second stamp puzzle. All the columns,
+rows, and diagonals add up 1_s._ 6_d._ There is no stamp on one square,
+and the conditions did not forbid this omission. The stamps at present
+in circulation are these:--1/2_d._, 1_d._, 1-1/2_d._, 2_d._, 2-1/2_d._,
+3_d._, 4_d._, 5_d._, 6_d._, 9_d._, 10_d._, 1_s._, 2_s._ 6_d._, 5_s._,
+10_s._, £1, and £5. In the first solution the numbers are in arithmetical
+progression--1, 1-1/2, 2, 2-1/2, 3, 3-1/2, 4, 4-1/2, 5. But any nine
+numbers will form a magic square if we can write them thus:--
+
+   1  2  3
+   7  8  9
+  13 14 15
+
+where the horizontal differences are all alike and the vertical
+differences all alike, but not necessarily the same as the horizontal.
+This happens in the case of the second solution, the numbers of which may
+be written:--
+
+   0  1  2
+   5  6  7
+  10 11 12
+
+Also in the case of the solution to No. 67, the Coinage Puzzle, the
+numbers are, in shillings:--
+
+  2      2-1/2  3
+  4-1/2  5      5-1/2
+  7      7-1/2  8
+
+If there are to be nine _different_ numbers, 0 may occur once (as in the
+solution to No. 22). Yet one might construct squares with negative
+numbers, as follows:--
+
+  -2  -1   0
+   5   6   7
+  12  13  14
+
+
+
+
+69.--_The Frogs and Tumblers._
+
+It is perfectly true, as the Professor said, that there is only one
+solution (not counting a reversal) to this puzzle. The frogs that jump
+are George in the third horizontal row; Chang, the artful-looking
+batrachian at the end of the fourth row; and Wilhelmina, the fair
+creature in the seventh row. George jumps downwards to the second tumbler
+in the seventh row; Chang, who can only leap short distances in
+consequence of chronic rheumatism, removes somewhat unwillingly to the
+glass just above him--the eighth in the third row; while Wilhelmina, with
+all the sprightliness of her youth and sex, performs the very creditable
+saltatory feat of leaping to the fourth tumbler in the fourth row. In
+their new positions, as shown in the accompanying diagram, it will be
+found that of the eight frogs no two are in line vertically,
+horizontally, or diagonally.
+
+[Illustration]
+
+
+
+
+70.--_Romeo and Juliet._
+
+This is rather a difficult puzzle, though, as the Professor remarked when
+Hawkhurst hit on the solution, it is "just one of those puzzles that a
+person might solve at a glance" by pure luck. Yet when the solution, with
+its pretty, symmetrical arrangement, is seen, it looks ridiculously
+simple.
+
+It will be found that Romeo reaches Juliet's balcony after visiting every
+house once and only once, and making fourteen turnings, not counting the
+turn he makes at starting. These are the fewest turnings possible, and
+the problem can only be solved by the route shown or its reversal.
+
+[Illustration]
+
+
+
+
+71.--_Romeo's Second Journey._
+
+[Illustration]
+
+In order to take his trip through all the white squares only with the
+fewest possible turnings, Romeo would do well to adopt the route I have
+shown, by means of which only sixteen turnings are required to perform
+the feat. The Professor informs me that the Helix Aspersa, or common or
+garden snail, has a peculiar aversion to making turnings--so much so that
+one specimen with which he made experiments went off in a straight line
+one night and has never come back since.
+
+
+
+
+72.--_The Frogs who would a-wooing go._
+
+This is one of those puzzles in which a plurality of solutions is
+practically unavoidable. There are two or three positions into which four
+frogs may jump so as to form five rows with four in each row, but the
+case I have given is the most satisfactory arrangement.
+
+[Illustration]
+
+The frogs that have jumped have left their astral bodies behind, in order
+to show the reader the positions which they originally occupied. Chang,
+the frog in the middle of the upper row, suffering from rheumatism, as
+explained above in the Frogs and Tumblers solution, makes the shortest
+jump of all--a little distance between the two rows; George and
+Wilhelmina leap from the ends of the lower row to some distance N. by
+N.W. and N. by N.E. respectively; while the frog in the middle of the
+lower row, whose name the Professor forgot to state, goes direct S.
+
+
+
+
+73.--_The Game of Kayles._
+
+To win at this game you must, sooner or later, leave your opponent an
+even number of similar groups. Then whatever he does in one group you
+repeat in a similar group. Suppose, for example, that you leave him these
+groups: o.o.ooo.ooo. Now, if he knocks down a single, you knock down a
+single; if he knocks down two in one triplet, you knock down two in the
+other triplet; if he knocks down the central kayle in a triplet, you
+knock down the central one in the other triplet. In this way you must
+eventually win. As the game is started with the arrangement
+o.ooooooooooo, the first player can always win, but only by knocking down
+the sixth or tenth kayle (counting the one already fallen as the second),
+and this leaves in either case o.ooo.ooooooo, as the order of the groups
+is of no importance. Whatever the second player now does, this can always
+be resolved into an even number of equal groups. Let us suppose that he
+knocks down the single one; then we play to leave him oo.ooooooo. Now,
+whatever he does we can afterwards leave him either ooo.ooo or o.oo.ooo.
+We know why the former wins, and the latter wins also; because, however
+he may play, we can always leave him either o.o, or o.o.o.o, or oo.oo, as
+the case may be. The complete analysis I can now leave for the amusement
+of the reader.
+
+
+
+
+74.--_The Broken Chessboard._
+
+The illustration will show how the thirteen pieces can be put together so
+as to construct the perfect board, and the reverse problem of cutting
+these particular pieces out will be found equally entertaining.
+
+[Illustration]
+
+Compare with Nos. 293 and 294 in _A. in M._
+
+
+
+
+75.--_The Spider and the Fly._
+
+Though this problem was much discussed in the _Daily Mail_ from 18th
+January to 7th February 1905, when it appeared to create great public
+interest, it was actually first propounded by me in the _Weekly Dispatch_
+of 14th June 1903.
+
+Imagine the room to be a cardboard box. Then the box may be cut in
+various different ways, so that the cardboard may be laid flat on the
+table. I show four of these ways, and indicate in every case the relative
+positions of the spider and the fly, and the straightened course which
+the spider must take without going off the cardboard. These are the four
+most favourable cases, and it will be found that the shortest route is in
+No. 4, for it is only 40 feet in length (add the square of 32 to the
+square of 24 and extract the square root). It will be seen that the
+spider actually passes along five of the six sides of the room! Having
+marked the route, fold the box up (removing the side the spider does not
+use), and the appearance of the shortest course is rather surprising. If
+the spider had taken what most persons will consider obviously the
+shortest route (that shown in No. 1), he would have gone 42 feet! Route
+No. 2 is 43.174 feet in length, and Route No. 3 is 40.718 feet.
+
+[Illustration]
+
+I will leave the reader to discover which are the shortest routes when
+the spider and the fly are 2, 3, 4, 5, and 6 feet from the ceiling and
+the floor respectively.
+
+
+
+
+76.--_The Perplexed Cellarman._
+
+Brother John gave the first man three large bottles and one small
+bottleful of wine, and one large and three small empty bottles. To each
+of the other two men he gave two large and three small bottles of wine,
+and two large and one small empty bottle. Each of the three then receives
+the same quantity of wine, and the same number of each size of bottle.
+
+
+
+
+77.--_Making a Flag._
+
+The diagram shows how the piece of bunting is to be cut into two pieces.
+Lower the piece on the right one "tooth," and they will form a perfect
+square, with the roses symmetrically placed.
+
+[Illustration]
+
+It will be found interesting to compare this with No. 154 in _A. in M._
+
+
+
+
+78.--_Catching the Hogs._
+
+A very short examination of this puzzle game should convince the reader
+that Hendrick can never catch the black hog, and that the white hog can
+never be caught by Katrün.
+
+Each hog merely runs in and out of one of the nearest corners and can
+never be captured. The fact is, curious as it must at first sight appear,
+a Dutchman cannot catch a black hog, and a Dutchwoman can never capture a
+white one! But each can, without difficulty, catch one of the other
+colour.
+
+So if the first player just determines that he will send Hendrick after
+the white porker and Katrün after the black one, he will have no
+difficulty whatever in securing both in a very few moves.
+
+It is, in fact, so easy that there is no necessity whatever to give the
+line of play. We thus, by means of the game, solve the puzzle in real
+life, why the Dutchman and his wife could not catch their pigs: in their
+simplicity and ignorance of the peculiarities of Dutch hogs, each went
+after the wrong animal.
+
+The little principle involved in this puzzle is that known to
+chess-players as "getting the opposition." The rule, in the case of my
+puzzle (where the moves resemble rook moves in chess, with the added
+condition that the rook may only move to an adjoining square), is simply
+this. Where the number of squares on the same row, between the man or
+woman and the hog, is odd, the hog can never be captured; where the
+number of squares is even, a capture is possible. The number of squares
+between Hendrick and the black hog, and between Katrün and the white hog,
+is 1 (an odd number), therefore these individuals cannot catch the
+animals they are facing. But the number between Hendrick and the white
+hog, and between Katrün and the black one, is 6 (an even number),
+therefore they may easily capture those behind them.
+
+
+
+
+79.--_The Thirty-one Game._
+
+By leading with a 5 the first player can always win. If your opponent
+plays another 5, you play a 2 and score 12. Then as often as he plays a 5
+you play a 2, and if at any stage he drops out of the series, 3, 10, 17,
+24, 31, you step in and win. If after your lead of 5 he plays anything
+but another 5, you make 10 or 17 and win. The first player may also win
+by leading a 1 or a 2, but the play is complicated. It is, however, well
+worth the reader's study.
+
+
+
+
+80.--_The Chinese Railways._
+
+This puzzle was artfully devised by the yellow man. It is not a matter
+for wonder that the representatives of the five countries interested were
+bewildered. It would have puzzled the engineers a good deal to construct
+those circuitous routes so that the various trains might run with safety.
+Diagram 1 shows directions for the five systems of lines, so that no line
+shall ever cross another, and this appears to be the method that would
+require the shortest possible mileage.
+
+[Illustration]
+
+The reader may wish to know how many different solutions there are to the
+puzzle. To this I should answer that the number is indeterminate, and I
+will explain why. If we simply consider the case of line A alone, then
+one route would be Diagram 2, another 3, another 4, and another 5. If 3
+is different from 2, as it undoubtedly is, then we must regard 5 as
+different from 4. But a glance at the four diagrams, 2, 3, 4, 5, in
+succession will show that we may continue this "winding up" process for
+ever; and as there will always be an unobstructed way (however long and
+circuitous) from stations B and E to their respective main lines, it is
+evident that the number of routes for line A alone is infinite. Therefore
+the number of complete solutions must also be infinite, if railway lines,
+like other lines, have no breadth; and indeterminate, unless we are told
+the greatest number of parallel lines that it is possible to construct in
+certain places. If some clear condition, restricting these "windings up,"
+were given, there would be no great difficulty in giving the number of
+solutions. With any reasonable limitation of the kind, the number would,
+I calculate, be little short of two thousand, surprising though it may
+appear.
+
+
+
+
+81.--_The Eight Clowns._
+
+This is a little novelty in magic squares. These squares may be formed
+with numbers that are in arithmetical progression, or that are not in
+such progression. If a square be formed of the former class, one place
+may be left vacant, but only under particular conditions. In the case of
+our puzzle there would be no difficulty in making the magic square with 9
+missing; but with 1 missing (that is, using 2, 3, 4, 5, 6, 7, 8, and 9)
+it is not possible. But a glance at the original illustration will show
+that the numbers we have to deal with are not actually those just
+mentioned. The clown that has a 9 on his body is portrayed just at the
+moment when two balls which he is juggling are in mid-air. The positions
+of these balls clearly convert his figure into the recurring decimal
+.[.9]. Now, since the recurring decimal .[.9] is equal to 9/9, and
+therefore to 1, it is evident that, although the clown who bears the
+figure 1 is absent, the man who bears the figure 9 by this simple
+artifice has for the occasion given his _figure_ the value of the
+_number_ 1. The troupe can consequently be grouped in the following
+manner:--
+
+  7     5
+  2  4  6
+  3  8 .[.9]
+
+Every column, every row, and each of the two diagonals now add up to 12.
+This is the correct solution to the puzzle.
+
+
+
+
+82.--_The Wizard's Arithmetic._
+
+This puzzle is both easy and difficult, for it is a very simple matter to
+find one of the multipliers, which is 86. If we multiply 8 by 86, all we
+need do is to place the 6 in front and the 8 behind in order to get the
+correct answer, 688. But the second number is not to be found by mere
+trial. It is 71, and the number to be multiplied is no less than
+1639344262295081967213114754098360655737704918032787. If you want to
+multiply this by 71, all you have to do is to place another 1 at the
+beginning and another 7 at the end--a considerable saving of labour!
+These two, and the example shown by the wizard, are the only two-figure
+multipliers, but the number to be multiplied may always be increased.
+Thus, if you prefix to 41096 the number 41095890, repeated any number of
+times, the result may always be multiplied by 83 in the wizard's peculiar
+manner.
+
+If we add the figures of any number together and then, if necessary,
+again add, we at last get a single-figure number. This I call the
+"digital root." Thus, the digital root of 521 is 8, and of 697 it is 4.
+This digital analysis is extensively dealt with in _A. in M._ Now, it is
+evident that the digital roots of the two numbers required by the puzzle
+must produce the same root in sum and product. This can only happen when
+the roots of the two numbers are 2 and 2, or 9 and 9, or 3 and 6, or 5
+and 8. Therefore the two-figure multiplier must have a digital root of 2,
+3, 5, 6, 8, or 9. There are ten such numbers in each case. I write out
+all the sixty, then I strike out all those numbers where the second
+figure is higher than the first, and where the two figures are alike
+(thirty-six numbers in all); also all remaining numbers where the first
+figure is odd and the second figure even (seven numbers); also all
+multiples of 5 (three more numbers). The numbers 21 and 62 I reject on
+inspection, for reasons that I will not enter into. I then have left, out
+of the original sixty, only the following twelve numbers: 83, 63, 81, 84,
+93, 42, 51, 87, 41, 86, 53, and 71. These are the only possible
+multipliers that I have really to examine.
+
+My process is now as curious as it is simple in working. First trying 83,
+I deduct 10 and call it 73. Adding 0's to the second figure, I say if
+30000, etc., ever has a remainder 43 when divided by 73, the dividend
+will be the required multiplier for 83. I get the 43 in this way. The
+only multiplier of 3 that produces an 8 in the digits place is 6. I
+therefore multiply 73 by 6 and get 438, or 43 after rejecting the 8. Now,
+300,000 divided by 73 leaves the remainder 43, and the dividend is 4,109.
+To this 1 add the 6 mentioned above and get 41,096 x 83, the example
+given on page 129.
+
+In trying the even numbers there are two cases to be considered. Thus,
+taking 86, we may say that if 60000, etc., when divided by 76 leaves
+either 22 or 60 (because 3×6 and 8×6 both produce 8), we get a solution.
+But I reject the former on inspection, and see that 60 divided by 76 is
+0, leaving a remainder 60. Therefore 8 x 86 = 688, the other example. It
+will be found in the case of 71 that 100000, etc., divided by 61 gives a
+remainder 42, (7 × 61 = 427) after producing the long dividend at the
+beginning of this article, with the 7 added.
+
+The other multipliers fail to produce a solution, so 83, 86, and 71 are
+the only three possible multipliers. Those who are familiar with the
+principle of recurring decimals (as somewhat explained in my next note on
+No. 83, "The Ribbon Problem") will understand the conditions under which
+the remainders repeat themselves after certain periods, and will only
+find it necessary in two or three cases to make any lengthy divisions. It
+clearly follows that there is an unlimited number of multiplicands for
+each multiplier.
+
+
+
+
+83.--_The Ribbon Problem._
+
+The solution is as follows: Place this rather lengthy number on the
+ribbon, 0212765957446808510638297872340425531914393617. It may be
+multiplied by any number up to 46 inclusive to give the same order of
+figures in the ring. The number previously given can be multiplied by any
+number up to 16. I made the limit 9 in order to put readers off the
+scent. The fact is these two numbers are simply the recurring decimals
+that equal 1/17 and 1/47 respectively. Multiply the one by seventeen and
+the other by forty-seven, and you will get all nines in each case.
+
+In transforming a vulgar fraction, say 1/17, to a decimal fraction, we
+proceed as below, adding as many noughts to the dividend as we like until
+there is no remainder, or until we get a recurring series of figures, or
+until we have carried it as far as we require, since every additional
+figure in a never-ending decimal carries us nearer and nearer to
+exactitude.
+
+  17) 100 (.058823
+       85
+     ----
+       150
+       136
+      ----
+        140
+        136
+       ----
+          40
+          34
+        ----
+           60
+           51
+         ----
+            9
+
+Now, since all powers of 10 can only contain factors of the powers of 2
+and 5, it clearly follows that your decimal never will come to an end if
+any other factor than these occurs in the denominator of your vulgar
+fraction. Thus, 1/2, 1/4, and 1/8 give us the exact decimals, .5, .25,
+and .125; 1/5 and 1/25 give us .2 and .04; 1/10 and 1/20 give us .1 and
+.05: because the denominators are all composed of 2 and 5 factors. But if
+you wish to convert 1/3, 1/6, or 1/7, your division sum will never end,
+but you will get these decimals, .33333, etc., .166666, etc., and
+.142857142857142857, etc., where, in the first case, the 3 keeps on
+repeating for ever and ever; in the second case the 6 is the repeater,
+and in the last case we get the recurring period of 142857. In the case
+of 1/17 (in "The Ribbon Problem") we find the circulating period to be
+.0588235294117647.
+
+Now, in the division sum above, the successive remainders are 1, 10, 15,
+14, 4, 6, 9, etc., and these numbers I have inserted around the inner
+ring of the diagram. It will be seen that every number from 1 to 16
+occurs once, and that if we multiply our ribbon number by any one of the
+numbers in the inner ring its position indicates exactly the point at
+which the product will begin. Thus, if we multiply by 4, the product will
+be 235, etc.; if we multiply by 6, 352, etc. We can therefore multiply by
+any number from 1 to 16 and get the desired result.
+
+[Illustration]
+
+The kernel of the puzzle is this: Any prime number, with the exception of
+2 and 5, which are the factors of 10, will exactly divide without
+remainder a number consisting of as many nines as the number itself, less
+one. Thus 999999 (six 9's) is divisible by 7, sixteen 9's are divisible
+by 17, eighteen 9's by 19, and so on. This is always the case, though
+frequently fewer 9's will suffice; for one 9 is divisible by 3, two by
+11, six by 13, when our ribbon rule for consecutive multipliers breaks
+down and another law comes in. Therefore, since the 0 and 7 at the ends
+of the ribbon may not be removed, we must seek a fraction with a prime
+denominator ending in 7 that gives a full period circulator. We try 37,
+and find that it gives a short period decimal, .027, because 37 exactly
+divides 999; it, therefore, will not do. We next examine 47, and find
+that it gives us the full period circulator, in 46 figures, at the
+beginning of this article.
+
+If you cut any of these full period circulators in half and place one
+half under the other, you will find that they will add up all 9's; so you
+need only work out one half and then write down the complements. Thus, in
+the ribbon above, if you add 05882352 to 94117647 the result is 99999999,
+and so with our long solution number. Note also in the diagram above that
+not only are the opposite numbers on the outer ring complementary, always
+making 9 when added, but that opposite numbers in the inner ring, our
+remainders, are also complementary, adding to 17 in every case. I ought
+perhaps to point out that in limiting our multipliers to the first nine
+numbers it seems just possible that a short period circulator might give
+a solution in fewer figures, but there are reasons for thinking it
+improbable.
+
+
+
+
+84.--_The Japanese Ladies and the Carpet._
+
+If the squares had not to be all the same size, the carpet could be cut
+in four pieces in any one of the three manners shown. In each case the
+two pieces marked A will fit together and form one of the three squares,
+the other two squares being entire. But in order to have the squares
+exactly equal in size, we shall require six pieces, as shown in the
+larger diagram. No. 1 is a complete square, pieces 4 and 5 will form a
+second square, and pieces 2, 3, and 6 will form the third--all of exactly
+the same size.
+
+[Illustration]
+
+[Illustration]
+
+If with the three equal squares we form the rectangle IDBA, then the mean
+proportional of the two sides of the rectangle will be the side of a
+square of equal area. Produce AB to C, making BC equal to BD. Then place
+the point of the compasses at E (midway between A and C) and describe the
+arc AC. I am showing the quite general method for converting rectangles
+to squares, but in this particular case we may, of course, at once place
+our compasses at E, which requires no finding. Produce the line BD,
+cutting the arc in F, and BF will be the required side of the square. Now
+mark off AG and DH, each equal to BF, and make the cut IG, and also the
+cut HK from H, perpendicular to ID. The six pieces produced are numbered
+as in the diagram on last page.
+
+It will be seen that I have here given the reverse method first: to cut
+the three small squares into six pieces to form a large square. In the
+case of our puzzle we can proceed as follows:--
+
+Make LM equal to half the diagonal ON. Draw the line NM and drop from L a
+perpendicular on NM. Then LP will be the side of all the three squares of
+combined area equal to the large square QNLO. The reader can now cut out
+without difficulty the six pieces, as shown in the numbered square on the
+last page.
+
+[Illustration]
+
+
+
+
+85.--_Captain Longbow and the Bears._
+
+[Illustration]
+
+It might have struck the reader that the story of the bear impaled on the
+North Pole had no connection with the problem that followed. As a matter
+of fact it is essential to a solution. Eleven bears cannot possibly be
+arranged to form of themselves seven rows of bears with four bears in
+every row. But it is a different matter when Captain Longbow informs us
+that "they had so placed themselves that _there were_" seven rows of four
+bears. For if they were grouped as shown in the diagram, so that three of
+the bears, as indicated, were in line with the North Pole, that impaled
+animal would complete the seventh row of four, which cannot be obtained
+in any other way. It obviously does not affect the problem whether this
+seventh row is a hundred miles long or a hundred feet, so long as they
+were really in a straight line--a point that might perhaps be settled by
+the captain's pocket compass.
+
+
+
+
+86.--_The English Tour._
+
+It was required to show how a resident at the town marked A might visit
+every one of the towns once, and only once, and finish up his tour at Z.
+This puzzle conceals a little trick. After the solver has demonstrated to
+his satisfaction that it cannot be done in accordance with the conditions
+as he at first understood them, he should carefully examine the wording
+in order to find some flaw. It was said, "This would be easy enough if he
+were able to cut across country by road, as well as by rail, but he is
+not."
+
+[Illustration]
+
+Now, although he is prohibited from cutting across country by road,
+nothing is said about his going by sea! If, therefore, we carefully look
+again at the map, we shall find that two towns, and two only, lie on the
+sea coast. When he reaches one of these towns he takes his departure on
+board a coasting vessel and sails to the other port. The annexed
+illustration shows, by a dark line, the complete route.
+
+This problem should be compared with No. 250, "The Grand Tour," in _A. in
+M._ It can be simplified in practically an identical manner, but as
+there is here no choice on the first stage from A, the solutions are
+necessarily quite different. See also solution to No. 94.
+
+
+
+
+87.--_The Chifu-Chemulpo Puzzle._
+
+The solution is as follows. You may accept the invitation to "try to do
+it in twenty moves," but you will never succeed in performing the feat.
+The fewest possible moves are twenty-six. Play the cars so as to reach
+the following positions:--
+
+   E5678
+  --------  = 10 moves.
+  1234
+
+   E56
+  --------  = 2 moves.
+  123 87 4
+
+   56
+  --------  = 5 moves.
+  E312 87 4
+
+    E
+  --------  = 9 moves.
+  87654321
+
+Twenty-six moves in all.
+
+
+
+
+88.--_The Eccentric Market-woman._
+
+The smallest possible number of eggs that Mrs. Covey could have taken to
+market is 719. After selling half the number and giving half an egg over
+she would have 359 left; after the second transaction she would have 239
+left; after the third deal, 179; and after the fourth, 143. This last
+number she could divide equally among her thirteen friends, giving each
+11, and she would not have broken an egg.
+
+
+
+
+89.--_The Primrose Puzzle._
+
+The two words that solve this puzzle are BLUEBELL and PEARTREE. Place the
+letters as follows: B 3-1, L 6-8, U 5-3, E 4-6, B 7-5, E 2-4, L 9-7, L
+9-2. This means that you take B, jump from 3 to 1, and write it down on
+1; and so on. The second word can be inserted in the same order. The
+solution depends on finding those words in which the second and eighth
+letters are the same, and also the fourth and sixth the same, because
+these letters interchange without destroying the words. MARITIMA (or
+sea-pink) would also solve the puzzle if it were an English word.
+
+Compare with No. 226 in _A. in M._
+
+
+
+
+90.--_The Round Table._
+
+Here is the way of arranging the seven men:--
+
+  A B C D E F G
+  A C D B G E F
+  A D B C F G E
+  A G B F E C D
+  A F C E G D B
+  A E D G F B C
+  A C E B G F D
+  A D G C F E B
+  A B F D E G C
+  A E F D C G B
+  A G E B D F C
+  A F G C B E D
+  A E B F C D G
+  A G C E D B F
+  A F D G B C E
+
+Of course, at a circular table, A will be next to the man at the end of
+the line.
+
+I first gave this problem for six persons on ten days, in the _Daily
+Mail_ for the 13th and 16th October 1905, and it has since been discussed
+in various periodicals by mathematicians. Of course, it is easily seen
+that the maximum number of sittings for _n_ persons is (_n_ - 1)(_n_
+-2)/2 ways. The comparatively easy method for solving all cases where
+_n_ is a prime+1 was first discovered by Ernest Bergholt. I then pointed
+out the form and construction of a solution that I had obtained for 10
+persons, from which E. D. Bewley found a general method for all even
+numbers. The odd numbers, however, are extremely difficult, and for a
+long time no progress could be made with their solution, the only numbers
+that could be worked being 7 (given above) and 5, 9, 17, and 33, these
+last four being all powers of 2+1. At last, however (though not without
+much difficulty), I discovered a subtle method for solving all cases, and
+have written out schedules for every number up to 25 inclusive. The case
+of 11 has been solved also by W. Nash. Perhaps the reader will like to
+try his hand at 13. He will find it an extraordinarily hard nut.
+
+The solutions for all cases up to 12 inclusive are given in _A. in M._,
+pp. 205, 206.
+
+
+
+
+91.--_The Five Tea Tins._
+
+There are twelve ways of arranging the boxes without considering the
+pictures. If the thirty pictures were all different the answer would be
+93,312. But the necessary deductions for cases where changes of boxes may
+be made without affecting the order of pictures amount to 1,728, and the
+boxes may therefore be arranged, in accordance with the conditions, in
+91,584 different ways. I will leave my readers to discover for themselves
+how the figures are to be arrived at.
+
+
+
+
+92.--_The Four Porkers._
+
+The number of ways in which the four pigs may be placed in the thirty-six
+sties in accordance with the conditions is seventeen, including the
+example that I gave, not counting the reversals and reflections of these
+arrangements as different. Jaenisch, in his _Analyse Mathématique au jeu
+des Échecs_ (1862), quotes the statement that there are just twenty-one
+solutions to the little problem on which this puzzle is based. As I had
+myself only recorded seventeen, I examined the matter again, and found
+that he was in error, and, doubtless, had mistaken reversals for
+different arrangements.
+
+Here are the seventeen answers. The figures indicate the rows, and their
+positions show the columns. Thus, 104603 means that we place a pig in the
+first row of the _first_ column, in no row of the _second_ column, in the
+fourth row of the _third_ column, in the sixth row of the _fourth_
+column, in no row of the _fifth_ column, and in the third row of the
+_sixth_ column. The arrangement E is that which I gave in diagram form:--
+
+  A. 104603
+  B. 136002
+  C. 140502
+  D. 140520
+  E. 160025
+  F. 160304
+  G. 201405
+  H. 201605
+  I. 205104
+  J. 206104
+  K. 241005
+  L. 250014
+  M. 250630
+  N. 260015
+  O. 261005
+  P. 261040
+  Q. 306104
+
+It will be found that forms N and Q are semi-symmetrical with regard to
+the centre, and therefore give only two arrangements each by reversal and
+reflection; that form H is quarter-symmetrical, and gives only four
+arrangements; while all the fourteen others yield by reversal and
+reflection eight arrangements each. Therefore the pigs may be placed in
+(2 × 2) + (4 × 1) + (8 × 14) = 120 different ways by reversing and
+reflecting all the seventeen forms.
+
+Three pigs alone may be placed so that every sty is in line with a pig,
+provided that the pigs are not forbidden to be in line with one another;
+but there is only one way of doing it (if we do not count reversals as
+different), as follows: 105030.
+
+
+
+
+93.--_The Number Blocks._
+
+Arrange the blocks so as to form the two multiplication sums 915 × 64 and
+732 × 80, and the product in both cases will be the same: 58,560.
+
+
+
+
+94.--_Foxes and Geese._
+
+The smallest possible number of moves is twenty-two--that is, eleven for
+the foxes and eleven for the geese. Here is one way of solving the
+puzzle:
+
+  10--5    11--6   12--7   5--12   6--1   7--6
+  ----     ----    ----    ----    ----   ----
+  1--8     2--9    3--4    8--3    9--10  4--9
+
+
+
+
+  12--7    1--8    6--1    7--2    8--3
+  ----     ----    ----    ----    ----
+  3--4     10--5   9--10   4--11   5--12
+
+Of course, the reader will play the first move in the top line, then the
+first move in the second line, then the second move in the top line, and
+so on alternately.
+
+[Illustration]
+
+In _A. in M._, p. 230, I have explained fully my "buttons and string"
+method of solving puzzles on chequered boards. In Diagram A is shown the
+puzzle in the form in which it may be presented on a portion of the
+chessboard with six knights. A comparison with the illustration on page
+141 will show that I have there dispensed with the necessity of
+explaining the knight's move to the uninstructed reader by lines that
+indicate those moves. The two puzzles are the same thing in different
+dress. Now compare page 141 with Diagram B, and it will be seen that by
+disentangling the strings I have obtained a simplified diagram without
+altering the essential relations between the buttons or discs. The reader
+will now satisfy himself without any difficulty that the puzzle requires
+eleven moves for the foxes and eleven for the geese. He will see that a
+goose on 1 or 3 must go to 8, to avoid being one move from a fox and to
+enable the fox on 11 to come on to the ring. If we play 1--8, then it is
+clearly best to play 10--5 and not 12--5 for the foxes. When they are all
+on the circle, then they simply promenade round it in a clockwise
+direction, taking care to reserve 8--3 and 5--12 for the final moves. It
+is thus rendered ridiculously easy by this method. See also notes on
+solutions to Nos. 13 and 85.
+
+
+
+
+95.--_Robinson Crusoe's Table._
+
+The diagram shows how the piece of wood should be cut in two pieces to
+form the square table-top. A, B, C, D are the corners of the table. The
+way in which the piece E fits into the piece F will be obvious to the eye
+of the reader. The shaded part is the wood that is discarded.
+
+
+
+
+96.--_The Fifteen Orchards._
+
+The number must be the least common multiple of 1, 2, 3, etc., up to 15,
+that, when divided by 7, leaves the remainder 1, by 9 leaves 3, by 11
+leaves 10, by 13 leaves 3, and by 14 leaves 8. Such a number is 120. The
+next number is 360,480, but as we have no record of a tree--especially a
+very young one--bearing anything like such a large number of apples, we
+may take 120 to be the only answer that is acceptable.
+
+
+
+
+97.--_The Perplexed Plumber._
+
+The rectangular closed cistern that shall hold a given quantity of water
+and yet have the smallest possible surface of metal must be a perfect
+cube--that is, a cistern every side of which is a square. For 1,000 cubic
+feet of water the internal dimensions will be 10 ft. × 10 ft. × 10 ft.,
+and the zinc required will be 600 square feet. In the case of a cistern
+without a top the proportions will be exactly half a cube. These are the
+"exact proportions" asked for in the second case. The exact dimensions
+cannot be given, but 12.6 ft. × 12.6 ft. × 6.3 ft. is a close
+approximation. The cistern will hold a little too much water, at which
+the buyer will not complain, and it will involve the plumber in a
+trifling loss not worth considering.
+
+
+
+
+98.--_The Nelson Column._
+
+If you take a sheet of paper and mark it with a diagonal line, as in
+Figure A, you will find that when you roll it into cylindrical form, with
+the line outside, it will appear as in Figure B.
+
+[Illustration]
+
+It will be seen that the spiral (in one complete turn) is merely the
+hypotenuse of a right-angled triangle, of which the length and width of
+the paper are the other two sides. In the puzzle given, the lengths of
+the two sides of the triangle are 40 ft. (one-fifth of 200 ft.) and 16
+ft. 8 in. Therefore the hypotenuse is 43 ft. 4 in. The length of the
+garland is therefore five times as long--216 ft. 8 in. A curious feature
+of the puzzle is the fact that with the dimensions given the result is
+exactly the sum of the height and the circumference.
+
+
+
+
+99.--_The Two Errand Boys._
+
+All that is necessary is to add the two distances at which they meet to
+twice their difference. Thus 720 + 400 + 640 = 1760 yards, or one mile,
+which is the distance required. Or, put another way, three times the
+first distance less the second distance will always give the answer, only
+the first distance should be more than two-thirds of the second.
+
+
+
+
+100.--_On the Ramsgate Sands._
+
+Just six different rings may be formed without breaking the conditions.
+Here is one way of effecting the arrangements.
+
+  A B C D E F G H I J K L M
+  A C E G I K M B D F H J L
+  A D G J M C F I L B E H K
+  A E I M D H L C G K B F J
+  A F K C H M E J B G L D I
+  A G M F L E K D J C I B H
+
+Join the ends and you have the six rings.
+
+Lucas devised a simple mechanical method for obtaining the _n_ rings that
+may be formed under the conditions by 2_n_+1 children.
+
+
+
+
+101.--_The Three Motor-Cars._
+
+The only set of three numbers, of two, three, and five figures
+respectively, that will fulfil the required conditions is 27 × 594 =
+16,038. These three numbers contain all the nine digits and 0, without
+repetition; the first two numbers multiplied together make the third, and
+the second is exactly twenty-two times the first. If the numbers might
+contain one, four, and five figures respectively, there would be many
+correct answers, such as 3 × 5,694 = 17,082; but it is a curious fact
+that there is only one answer to the problem as propounded, though it is
+no easy matter to prove that this is the case.
+
+
+
+
+102.--_A Reversible Magic Square._
+
+[Illustration:
+
+  11  77  62  29
+  69  22  17  71
+  27  61  79  12
+  72  19  21  67   ]
+
+It will be seen that in the arrangement given every number is different,
+and all the columns, all the rows, and each of the two diagonals, add up
+179, whether you turn the page upside down or not. The reader will notice
+that I have not used the figures 3, 4, 5, 8, or 0.
+
+
+
+
+103.--_The Tube Railway._
+
+There are 640 different routes. A general formula for puzzles of this
+kind is not practicable. We have obviously only to consider the
+variations of route between B and E. Here there are nine sections or
+"lines," but it is impossible for a train, under the conditions, to
+traverse more than seven of these lines in any route. In the following
+table by "directions" is meant the order of stations irrespective of
+"routes." Thus, the "direction" BCDE gives nine "routes," because there
+are three ways of getting from B to C, and three ways of getting from D
+to E. But the "direction" BDCE admits of no variation; therefore yields
+only one route.
+
+  2  two-line directions of  3 routes --   6
+  1  three-line    "      "  1   "    --   1
+  1      "         "      "  9   "    --   9
+  2  four-line     "      "  6   "    --  12
+  2      "         "      " 18   "    --  36
+  6  five-line     "      "  6   "    --  36
+  2      "         "      " 18   "    --  36
+  2  six-line      "      " 36   "    --  72
+  12 seven-line    "      " 36   "    -- 432
+                                        ----
+                   Total                 640
+
+We thus see that there are just 640 different routes in all, which is the
+correct answer to the puzzle.
+
+
+
+
+104.--_The Skipper and the Sea-Serpent._
+
+Each of the three pieces was clearly three cables long. But Simon
+persisted in assuming that the cuts were made transversely, or across,
+and that therefore the complete length was nine cables. The skipper,
+however, explained (and the point is quite as veracious as the rest of
+his yarn) that his cuts were made longitudinally--straight from the tip
+of the nose to the tip of the tail! The complete length was therefore
+only three cables, the same as each piece. Simon was not asked the exact
+length of the serpent, but how long it _must_ have been. It must have
+been at least three cables long, though it might have been (the skipper's
+statement apart) anything from that up to nine cables, according to the
+direction of the cuts.
+
+
+
+
+105.--_The Dorcas Society._
+
+If there were twelve ladies in all, there would be 132 kisses among the
+ladies alone, leaving twelve more to be exchanged with the curate--six to
+be given by him and six to be received. Therefore, of the twelve ladies,
+six would be his sisters. Consequently, if twelve could do the work in
+four and a half months, six ladies would do it in twice the time--four
+and a half months longer--which is the correct answer.
+
+At first sight there might appear to be some ambiguity about the words,
+"Everybody kissed everybody else, except, of course, the bashful young
+man himself." Might this not be held to imply that all the ladies
+immodestly kissed the curate, although they were not (except the sisters)
+kissed by him in return? No; because, in that case, it would be found
+that there must have been twelve girls, not one of whom was a sister,
+which is contrary to the conditions. If, again, it should be held that
+the sisters might not, according to the wording, have kissed their
+brother, although he kissed them, I reply that in that case there must
+have been twelve girls, all of whom must have been his sisters. And the
+reference to the ladies who might have worked exclusively of the sisters
+shuts out the possibility of this.
+
+
+
+
+106.--_The Adventurous Snail._
+
+At the end of seventeen days the snail will have climbed 17 ft., and at
+the end of its eighteenth day-time task it will be at the top. It
+instantly begins slipping while sleeping, and will be 2 ft. down the
+other side at the end of the eighteenth day of twenty-four hours. How
+long will it take over the remaining 18 ft.? If it slips 2 ft. at night
+it clearly overcomes the tendency to slip 2 ft. during the daytime, in
+climbing up. In rowing up a river we have the stream against us, but in
+coming down it is with us and helps us. If the snail can climb 3 ft. and
+overcome the tendency to slip 2 ft. in twelve hours' ascent, it could
+with the same exertion crawl 5 ft. a day on the level. Therefore, in
+going down, the same exertion carries it 7 ft. in twelve hours--that is,
+5 ft. by personal exertion and 2 ft. by slip. This, with the night slip,
+gives it a descending progress of 9 ft. in the twenty-four hours. It can,
+therefore, do the remaining 18 ft. in exactly two days, and the whole
+journey, up and down, will take it exactly twenty days.
+
+
+
+
+107.--_The Four Princes._
+
+When Montucla, in his edition of Ozanam's _Recreations in Mathematics_,
+declared that "No more than three right-angled triangles, equal to each
+other, can be found in whole numbers, but we may find as many as we
+choose in fractions," he curiously overlooked the obvious fact that if
+you give all your sides a common denominator and then cancel that
+denominator you have the required answer in integers!
+
+Every reader should know that if we take any two numbers, _m_ and _n_,
+then _m_^2 + _n_^2, _m_^2 - _n_^2, and _2mn_ will be the three sides of a
+rational right-angled triangle. Here _m_ and _n_ are called generating
+numbers. To form three such triangles of equal area, we use the following
+simple formula, where _m_ is the greater number:--
+
+  _mn_ + _m_^2 + _n_^2 = _a_
+  _m_^2 - _n_^2 = _b_
+  2_mn_ + _n_^2 = _c_
+
+Now, if we form three triangles from the following pairs of generators,
+_a_ and _b_, _a_ and _c_, _a_ and _b_ + _c_, they will all be of equal
+area. This is the little problem respecting which Lewis Carroll says in
+his diary (see his _Life and Letters_ by Collingwood, p. 343), "Sat up
+last night till 4 a.m., over a tempting problem, sent me from New York,
+'to find three equal rational-sided right-angled triangles.' I found two
+... but could not find three!"
+
+The following is a subtle formula by means of which we may always find a
+R.A.T. equal in area to any given R.A.T. Let _z_ = hypotenuse, _b_ =
+base, _h_ = height, _a_ = area of the given triangle; then all we have
+to do is to form a R.A.T. from the generators _z_^2 and 4_a_, and give
+each side the denominator 2_z_ (_b_^2 - _h_^2), and we get the required
+answer in fractions. If we multiply all three sides of the original
+triangle by the denominator, we shall get at once a solution in whole
+numbers.
+
+The answer to our puzzle in smallest possible numbers is as follows:--
+
+  First Prince ...  518   1320   1418
+  Second Prince ... 280   2442   2458
+  Third Prince ...  231   2960   2969
+  Fourth Prince ... 111   6160   6161
+
+The area in every case is 341,880 square furlongs. I must here refrain
+from showing fully how I get these figures. I will explain, however, that
+the first three triangles are obtained, in the manner shown, from the
+numbers 3 and 4, which give the generators 37, 7; 37, 33; 37, 40. These
+three pairs of numbers solve the indeterminate equation, _a_^3_b_
+-_b_^3_a_ = 341,880. If we can find another pair of values, the thing is
+done. These values are 56, 55, which generators give the last triangle.
+The next best answer that I have found is derived from 5 and 6, which
+give the generators 91, 11; 91, 85; 91, 96. The fourth pair of values is
+63, 42.
+
+The reader will understand from what I have written above that there is
+no limit to the number of rational-sided R.A.T.'s of equal area that may
+be found in whole numbers.
+
+
+
+
+108.--_Plato and the Nines._
+
+The following is the simple solution of the three nines puzzle:--
+
+  9 + 9
+  ----
+   .9
+
+To divide 18 by .9 (or nine-tenths) we, of course, multiply by 10 and
+divide by 9. The result is 20, as required.
+
+
+
+
+109.--_Noughts and Crosses._
+
+The solution is as follows: Between two players who thoroughly understand
+the play every game should be drawn. Neither player could ever win except
+through the blundering of his opponent. If Nought (the first player)
+takes the centre, Cross must take a corner, or Nought may beat him with
+certainty. If Nought takes a corner on his first play, Cross must take
+the centre at once, or again be beaten with certainty. If Nought leads
+with a side, both players must be very careful to prevent a loss, as
+there are numerous pitfalls. But Nought may safely lead anything and
+secure a draw, and he can only win through Cross's blunders.
+
+
+
+
+110.--_Ovid's Game._
+
+The solution here is: The first player can always win, provided he plays
+to the centre on his first move. But a good variation of the game is to
+bar the centre for the first move of the first player. In that case the
+second player should take the centre at once. This should always end in a
+draw, but to ensure it the first player must play to two adjoining
+corners (such as 1 and 3) on his first and second moves. The game then
+requires great care on both sides.
+
+
+
+
+111.--_The Farmer's Oxen._
+
+Sir Isaac Newton has shown us, in his _Universal Arithmetic_, that we may
+divide the bullocks in each case in two parts--one part to eat the
+increase, and the other the accumulated grass. The first will vary
+directly as the size of the field, and will not depend on the time; the
+second part will also vary directly as the size of the field, and in
+addition inversely with the time. We find from the farmer's statements
+that 6 bullocks keep down the growth in a 10-acre field, and 6 bullocks
+eat the grass on 10 acres in 16 weeks. Therefore, if 6 bullocks keep down
+the growth on 10 acres, 24 will keep down the growth on 40 acres.
+
+Again, we find that if 6 bullocks eat the accumulated grass on 10 acres
+in 16 weeks, then
+
+   12 eat the grass on 10 acres in 8 weeks,
+   48  "        "      40   "      8   "
+  192  "        "      40   "      2   "
+   64  "        "      40   "      6   "
+
+Add the two results together (24 + 64), and we find that 88 oxen may be
+fed on a 40-acre meadow for 6 weeks, the grass growing regularly all the
+time.
+
+
+
+
+112.--_The Great Grangemoor Mystery._
+
+We were told that the bullet that killed Mr. Stanton Mowbray struck the
+very centre of the clock face and instantly welded together the hour,
+minute, and second hands, so that all revolved in one piece. The puzzle
+was to tell from the fixed relative positions of the three hands the
+exact time when the pistol was fired.
+
+We were also told, and the illustration of the clock face bore out the
+statement, that the hour and minute hands were exactly twenty divisions
+apart, "the third of the circumference of the dial." Now, there are
+eleven times in twelve hours when the hour hand is exactly twenty
+divisions ahead of the minute hand, and eleven times when the minute hand
+is exactly twenty divisions ahead of the hour hand. The illustration
+showed that we had only to consider the former case. If we start at four
+o'clock, and keep on adding 1 h. 5 m. 27-3/11 sec., we shall get all
+these eleven times, the last being 2 h. 54 min. 32-8/11 sec. Another
+addition brings us back to four o'clock. If we now examine the clock
+face, we shall find that the seconds hand is nearly twenty-two divisions
+behind the minute hand, and if we look at all our eleven times we shall
+find that only in the last case given above is the seconds hand at this
+distance. Therefore the shot must have been fired at 2 h. 54 min. 32-8/11
+sec. exactly, or, put the other way, at 5 min. 27-3/11 sec. to three
+o'clock. This is the correct and only possible answer to the puzzle.
+
+
+
+
+113.--_Cutting a Wood Block._
+
+Though the cubic contents are sufficient for twenty-five pieces, only
+twenty-four can actually be cut from the block. First reduce the length
+of the block by half an inch. The smaller piece cut off constitutes the
+portion that cannot be used. Cut the larger piece into three slabs, each
+one and a quarter inch thick, and it will be found that eight blocks may
+easily be cut out of each slab without any further waste.
+
+
+
+
+114.--_The Tramps and the Biscuits._
+
+The smallest number of biscuits must have been 1021, from which it is
+evident that they were of that miniature description that finds favour in
+the nursery. The general solution is that for _n_ men the number must be
+_m_ (_n_^{_n_+1}) - (_n_ - 1), where _m_ is any integer. Each man will
+receive _m_ (_n_ - 1)^_n_ - 1 biscuits at the final division, though in
+the case of two men, when _m_ = 1, the final distribution only benefits
+the dog. Of course, in every case each man steals an _n_th of the number
+of biscuits, after giving the odd one to the dog.
