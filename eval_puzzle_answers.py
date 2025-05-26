@@ -6,37 +6,39 @@ from concurrent.futures import ThreadPoolExecutor
 
 def extract_rating(response):
     """
-    Extract a rating (1 to 5) from the LLM response.
-    Assumes the response contains a phrase like "Rating: X" (case insensitive).
+    Extract a true/false evaluation from the LLM response.
+    Assumes the response contains a phrase like "Evaluation: True" or "Evaluation: False" (case insensitive).
     """
-    m = re.search(r'Rating\s*:\s*([1-5])', response, re.IGNORECASE)
+    m = re.search(r'Evaluation\s*:\s*(True|False)', response, re.IGNORECASE)
     if m:
-        return int(m.group(1))
+        return m.group(1).lower() == 'true'
     else:
         return None
 
 # System message for puzzle evaluation
-PUZZLE_EVAL_SYS_MSG = """You are an expert puzzle evaluator. Your task is to evaluate the quality of a puzzle solution by comparing it with the reference solution.
+PUZZLE_EVAL_SYS_MSG = """You are an expert puzzle evaluator. Your task is to evaluate whether a puzzle solution matches the reference solution.
 You are provided with:
     1. A puzzle description
     2. A solution attempt
     3. The reference solution
 Please perform the following steps:
-1. Analyze the solution attempt for:
-   - Correctness of the answer
-   - Clarity of explanation
-   - Logical reasoning
-   - Step-by-step approach
+1. Compare the solution attempt with the reference solution, checking for:
+   - Exact match of the final answer with the reference solution
    - Mathematical accuracy (if applicable)
-2. Compare with the reference solution
-3. Assign a rating from 1 to 5 based on the following criteria:
-   - **Rating 5:** The solution is perfect. It provides a clear, step-by-step explanation that matches or exceeds the reference solution in clarity and completeness.
-   - **Rating 4:** The solution is very good. It reaches the correct answer with minor issues in explanation or presentation.
-   - **Rating 3:** The solution is acceptable. It shows understanding but may have some gaps in explanation or minor errors.
-   - **Rating 2:** The solution is poor. It may have the right answer but lacks proper explanation, or has significant errors in reasoning.
-   - **Rating 1:** The solution is incorrect or completely misses the point of the puzzle.
-4. Output your evaluation in the exact format: "Rating: X. Explanation: <your explanation>."
-Ensure your explanation clearly justifies the assigned rating and provides specific feedback on what was done well and what could be improved."""
+   - Key points and concepts covered
+2. Determine if the solution attempt is correct:
+   - **True:** The solution attempt must have:
+     * The exact same final answer as the reference solution
+     * Correct mathematical calculations (if applicable)
+   - **False:** The solution attempt is incorrect if:
+     * The final answer differs from the reference solution (even if the logic seems sound)
+     * The reasoning is flawed
+     * The mathematical calculations are incorrect
+3. Output your evaluation in the exact format: "Evaluation: True/False. Explanation: <your explanation>."
+Ensure your explanation clearly justifies your evaluation by pointing out:
+- Whether the final answer matches exactly
+- Any differences in reasoning or approach
+- Any mathematical or logical errors (if present)"""
 
 def eval_puzzle_jsonl(path_to_jsonl, api_base, model_name, max_tokens=512, temperature=0.7, threads=10, output_file=None):
     def process_data(data_item, api_base, model_name, max_tokens=512, temperature=0.7):
@@ -64,7 +66,7 @@ Reference Solution:
         response = chat_completion(api_base=api_base, model_name=model_name, messages=messages,
                                    max_tokens=max_tokens, temperature=temperature)
         
-        rating = extract_rating(response)
+        is_correct = extract_rating(response)
         
         return {
             "puzzle_title": puzzle_title,
@@ -72,7 +74,7 @@ Reference Solution:
             "llm_solution": llm_solution,
             "reference_solution": reference_solution,
             "eval_feedback": response,
-            "eval_rating": rating
+            "is_correct": is_correct
         }
     
     data_list = list(read_jsonl(path_to_jsonl))
@@ -83,22 +85,22 @@ Reference Solution:
         output_file = os.path.join("eval_results", file_name + "_eval.jsonl")
     
     output_list = []
-    total_rating = 0
+    correct_count = 0
     
     with ThreadPoolExecutor(max_workers=threads) as executor:
         futures = [executor.submit(process_data, data_item, api_base, model_name, max_tokens, temperature)
                    for data_item in data_list]
         for future in futures:
             result_json = future.result()
-            if result_json["eval_rating"] is not None:
-                total_rating += result_json["eval_rating"]
+            if result_json["is_correct"] is not None:
+                correct_count += int(result_json["is_correct"])
             output_list.append(result_json)
    
     write_jsonl(output_file, output_list)
     print(f'[INFO] Evaluation results have been saved to {output_file}')
     if total_counter > 0:
-        avg_rating = total_rating / total_counter
-        print(f'[INFO] Average Rating: {avg_rating:.2f}/5.00')
+        accuracy = (correct_count / total_counter) * 100
+        print(f'[INFO] Accuracy: {accuracy:.2f}% ({correct_count}/{total_counter} correct)')
     return
 
 if __name__ == "__main__":
